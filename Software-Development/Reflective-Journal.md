@@ -26,4 +26,6 @@ Ah, GitHub, this joy of a website. It is a cloud-hosted variant of the version-c
 ### How is my understanding so far?
 I would rate my confusion as anywhere between moderate and high, but I find myself - surprisingly - not entirely lost. I am optimistic for the future.
 
+# Week 3
+
 
