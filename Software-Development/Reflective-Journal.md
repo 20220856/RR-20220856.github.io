@@ -22,3 +22,8 @@ Additionally, the usage of branches prevents issues from multiple developers upl
 
 ### What is Github?
 Ah, GitHub, this joy of a website. It is a cloud-hosted variant of the version-control software Git. Projects made on GitHub are accessable by multiple collaborators due to its nature as a cloud-hosted platform for coding, therefore allows significantly faster and more synergistic teamwork between members of a team. As far as I am aware, GitHub supports effectively whatever language you throw at it, but it just so happens I am knowledgable in all 0 of them. I am unsure whether this would mean different coding languages can be used in conjunction between members of a team on the same project, or if one standardised language must be selected and used by all team members. As far as I have learned so far, one of my preferred tricks is the usage of varying sequences of hashes - "#" "##" "###"
+
+### How is my understanding so far?
+I would rate my confusion as anywhere between moderate and high, but I find myself - surprisingly - not entirely lost. I am optimistic for the future.
+
+
