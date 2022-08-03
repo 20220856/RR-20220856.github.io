@@ -1,5 +1,7 @@
 # Research Repository 
 
+## I will be including my opinions and personal insights in this document, hence the volume.
+
 ## First Impressions
 Going into this course, I have very little coding experience, and what little I have learned while attempting to navigate GitHub so far has both been highly confusing, and greatly euphoric when I achieve success. I'm excited to see what more I can do.
 
