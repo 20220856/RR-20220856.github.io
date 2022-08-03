@@ -2,8 +2,12 @@
 
 ## I will be including my opinions and personal insights in this document, hence the volume.
 
+
+
 ## First Impressions
 Going into this course, I have very little coding experience, and what little I have learned while attempting to navigate GitHub so far has both been highly confusing, and greatly euphoric when I achieve success. I'm excited to see what more I can do.
+
+
 
 ## Week 1
 
@@ -16,6 +20,8 @@ Visual coding is - as mentioned above - a means of writing a coherent string of 
 ### What are some Programming Principles I have discovered?
 As of yet, I have not learned how to do too much. This week functioned as a fantastic refresher on Scratch, but I am left thoroughly confused on even the basics of GitHub.
 
+
+
 ## Week 2
 
 ### What is Git?
@@ -27,6 +33,8 @@ Ah, GitHub, this joy of a website. It is a cloud-hosted variant of the version-c
 
 ### How is my understanding so far?
 I would rate my confusion as anywhere between moderate and high, but I find myself - surprisingly - not entirely lost. I am optimistic for the future.
+
+
 
 # Week 3
 
