@@ -9,7 +9,7 @@ Going into this course, I have very little coding experience, and what little I 
  
  
  
-## Week 1
+# Week 1
 
 ### What is Scratch?
 Scratch is - as far as I'm aware - a simplified, visualised coding language. What would ordinarily be lines of code are instead divided into modular "Blocks" that are able to be manipulated, and "slotted" together to form a coherent string of commands, with little input of written code.
@@ -22,7 +22,7 @@ As of yet, I have not learned how to do too much. This week functioned as a fant
 
 
 
-## Week 2
+# Week 2
 
 ### What is Git?
 Git is a version control software - a means to write code in a (relatively) non-convoluted and easy-to-organise way. The primary feature of Git is the ability to publish changes to temporary "Branches", before releasing said code to the main branch. An easy comparison is a "Beta". This allows updates and changes to be made without compromising the integrity of the intact code belonging to the main branch in case of errors.
