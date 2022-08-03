@@ -2,6 +2,7 @@
 
 ### CPU
 Central Processing Unit – responsible for general computation and is the main source of processing power in a computer system. It primarily processes arithmetic and logical operations within a system, pertaining to numerical processing and logic gates.
+[CPU](Technical-Support/Images/cpu.jpg)
 
 ### RAM
 Random Access Memory – RAM is responsible for the short-term storing of data whilst calculations requiring said data are underway. It has significantly faster times to access than other storage such as HDDs or SSDs, hence its necessity for quick calculation.
@@ -9,7 +10,7 @@ Random Access Memory – RAM is responsible for the short-term storing of data w
 ### BIOS
 Basic Input-Output System – The BIOS is responsible for initialisation of hardware in a computer, as well as the booting of the main Operating System. This ensures everything is in working order before activating hardware-reliant software.  
 
-### CI
+### PCI
 Peripheral Component Interconnect – These are slots on the motherboard responsible for connections with external peripherals such as external sound or network cards.
 
 ### AGP
