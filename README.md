@@ -1,3 +1,11 @@
 # **Research Repository** *_- 20220856_*
-This is, allegedly, a successful research repository. We shall see.<br>
-Reflective Journal is [Reflective-Journal.md](./Software-Development/Reflective-Journal.md/)
+
+## Software Development
+
+
+
+## Technical Support
+
+
+## Research/Other
+[Reflective Journal](./Software-Development/Reflective-Journal.md/)
