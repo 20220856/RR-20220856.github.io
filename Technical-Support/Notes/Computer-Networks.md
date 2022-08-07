@@ -21,4 +21,7 @@ Ring topologies involve all devices being connected on a network, but using othe
 #### Hybrid Topologies
 Hybrid topologies - as the name infers - is a combination between multiple topology infrastructures. This is likely to be the general structure within most networks, as a hybrid topology may bring the benefits of all whilst eliminating the negatives.
 
-### 
+# Network Architecture
+### Peer to Peer (P2P) Network
+
+#
