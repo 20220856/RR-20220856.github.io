@@ -13,3 +13,11 @@ The second level of support is usually doing things other than answering calls a
 The third level of support usually consists of specialised individuals outside of the helpdesk, and generally consists of more specialised areas of the company – for example, areas like network administrators, program developers, etc. Alternatively, these individuals may be from third party companies from which products/services may be provided.
 
 The order in which issues at a helpdesk should be resolved can be found here: jpFaUFQhR5CbGBBJJEZv_table3_1.png (1048×735) (imgix.net)
+
+# 08/08 Notes
+
+### Customer Profiles
+As a member of a helpdesk, it is important to be able to build up a customer profile of the individual with which you are speaking, as to best serve them. This may include details such as where they are, whether they are technologically literate, what their needs are, what they have tried, etc. It is important to be able to relate to the level of understanding of the customer, and ensuring that the customer is able to understand what you are saying to them.
+
+### Caller Types
+There are a variety of categories into which customer/callers may be placed. //TBC
