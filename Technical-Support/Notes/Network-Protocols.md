@@ -44,3 +44,12 @@ Circuit switching infrastructure is entirely physical, between the souce and des
 Packet switching infrastructure, instead, utilises a router to direct one packet at a time from the destination, to send through the path of least resistance to the destination. Routers send packets through pathways that have lower amounts of network traffic, to reduce latency within the network. Through this process, there is no bandwidth wastage, as network resources are only utilised when they are needed. They are entirely digital. The fact that significantly less physical infrastructure is used results in a vastly reduced operation cost.
 
 ### Protocols and Standards
+
+#### TCP/IP - Transmission Control Protocol/Internet Protocol
+
+#### ETHERNET - 802.3
+
+### OSI (Open Systems Interconnection) Model
+The OSI model is used as a template to show which protocols are used for sending information from one device to another. It shows which protocols are used by each level
+
+https://miro.medium.com/max/1024/1*17Zz6v0HWIzgiOzQYmO6lA.jpeg
