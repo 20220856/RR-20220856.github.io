@@ -51,28 +51,16 @@ TCP is a protocol responsible for ensuring that packets are both sent FROM one d
 #### ETHERNET - 802.3
 
 ### OSI (Open Systems Interconnection) Model
-The OSI model is used as a template to show which protocols are used for sending information from one device to another. It shows which protocols are used by each level
+The OSI model is used as a template to show which protocols are used for sending information from one device to another, and the processes utilised by the different levels
 
 There are 7 layers within the OSI model;
-7. Application
-
-6. Presentation
-
-
-5. Session
-
-
-4. Transport
-
-
-3. Network
-
-
-2. Data Link
-
-
 1. Physical
-
+2. Data Link
+3. Network
+4. Transport
+5. Session
+6. Presentation
+7. Application
 
 
 Information added on the source end by a level in the OSI model will be removed on the receiving end by the same corresponding level.
