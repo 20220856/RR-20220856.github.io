@@ -46,10 +46,35 @@ Packet switching infrastructure, instead, utilises a router to direct one packet
 ### Protocols and Standards
 
 #### TCP/IP - Transmission Control Protocol/Internet Protocol
+TCP is a protocol responsible for ensuring that packets are both sent FROM one device, and received BY another device. When sending packets, TCP also sends requests to the destination to ensure they are received, and if they are not, it will resend the lost packet.
 
 #### ETHERNET - 802.3
 
 ### OSI (Open Systems Interconnection) Model
 The OSI model is used as a template to show which protocols are used for sending information from one device to another. It shows which protocols are used by each level
 
-https://miro.medium.com/max/1024/1*17Zz6v0HWIzgiOzQYmO6lA.jpeg
+There are 7 layers within the OSI model;
+7. Application
+
+6. Presentation
+
+
+5. Session
+
+
+4. Transport
+
+
+3. Network
+
+
+2. Data Link
+
+
+1. Physical
+
+
+
+Information added on the source end by a level in the OSI model will be removed on the receiving end by the same corresponding level.
+
+# REVIEW THIS https://miro.medium.com/max/1024/1*17Zz6v0HWIzgiOzQYmO6lA.jpeg
