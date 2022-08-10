@@ -9,5 +9,12 @@
 - Provide a prioritisation system for handling calls.
 - Allow for reasonable future expansion of site(s).
 
+### Additionally, the following must be planned;
+
+- Hardware and Software components, and network devices required.
+- The communication channel to connect the multiple sites together.
+- The costs associated with purchasing components and establishing infrastructure.
+- Rationale and reasoning for the selection of components must be shown.
+
 ### The total available budget is $20,000 NZD.
 
