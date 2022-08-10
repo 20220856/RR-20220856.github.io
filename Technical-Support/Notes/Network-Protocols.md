@@ -62,6 +62,7 @@ There are 7 layers within the OSI model;
 6. Presentation
 7. Application
 
+to connect 2 different sites a ROUTER is used - connecting two sites together wirelessly. a SWITCH is used to manage internal networks. 
 
 Information added on the source end by a level in the OSI model will be removed on the receiving end by the same corresponding level.
 
