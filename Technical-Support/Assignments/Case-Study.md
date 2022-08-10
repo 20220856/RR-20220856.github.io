@@ -1,6 +1,6 @@
 # Technical Support Case Study - Identify Hardware for an Organisation
 
-# Task:
+## Task:
 ### Design a Network with the following requirements;
 
 - The ability to connect four computers cohesively.
