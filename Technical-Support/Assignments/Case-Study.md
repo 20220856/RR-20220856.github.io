@@ -3,4 +3,9 @@
 # Task:
 ### Design a Network with the following requirements;
 
-![thumbnail_IMG_0864 (1)](https://user-images.githubusercontent.com/110361869/184012895-67a57f1a-55ce-40ad-9b2c-9f0e5d26ab38.jpg)
+- The ability to connect four computers cohesively.
+- Ensure there is a centralised printer accessable to all systems.
+- Ensure connections and communications can be made between multiple sites.
+- Provide a suite of software for monitoring and managing calls from clients.
+- Provide a prioritisation system for handling calls.
+- Allow for reasonable future expansion of site(s).
