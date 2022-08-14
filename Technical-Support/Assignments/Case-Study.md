@@ -13,9 +13,12 @@
 
 - Hardware and Software components, and network devices required.
 - The communication channel to connect the multiple sites together.
+- The ability to connect a further two sites to the network in future.
 - The costs associated with purchasing components and establishing infrastructure.
 - Rationale and reasoning for the selection of components must be shown.
 
 ### The total available budget is $20,000 NZD.
 
 https://app.diagrams.net/#H20220856%2FResearch-Repository-20220856.github.io%2Fmain%2FTechnical-Support%2FAssignment-Network
+
+
