@@ -46,24 +46,44 @@ Packet switching infrastructure, instead, utilises a router to direct one packet
 ### Protocols and Standards
 
 #### TCP/IP - Transmission Control Protocol/Internet Protocol
-TCP is a protocol responsible for ensuring that packets are both sent FROM one device, and received BY another device. When sending packets, TCP also sends requests to the destination to ensure they are received, and if they are not, it will resend the lost packet.
+TCP is a protocol responsible for ensuring that packets are both sent FROM one device, and received BY another device. When sending packets, TCP also sends requests to the destination to ensure they are received, and if they are not, it will resend the lost packet. The TCP/IP model was developed before the OSI model.
 
-#### ETHERNET - 802.3
+There are 5 layers in TCP/IP;
+Application - Holds the combined functions of the Application, Presentation, and Session layers of OSI model.
+Transport - TCP/UDP
+Network - IP/etc.
+Data Link - same as osi
+Physical - same as osi
+
+#### ETHERNET/802.3 Protocol
+Ethernet communication is phyical only communication for the local area network. 
+
+#### Wifi/802.11 Protocol
+figure this out
+
 
 ### OSI (Open Systems Interconnection) Model
 The OSI model is used as a template to show which protocols are used for sending information from one device to another, and the processes utilised by the different levels
 
 There are 7 layers within the OSI model;
-1. Physical
-2. Data Link
-3. Network
-4. Transport
-5. Session
-6. Presentation
-7. Application
+Application
+Presentation
+Session
+Transport
+Network
+Data Link
+Physical
+
+# IP Addresses.
+
+
+
+
 
 to connect 2 different sites a ROUTER is used - connecting two sites together wirelessly. a SWITCH is used to manage internal networks. 
 
 Information added on the source end by a level in the OSI model will be removed on the receiving end by the same corresponding level.
 
 # REVIEW THIS https://miro.medium.com/max/1024/1*17Zz6v0HWIzgiOzQYmO6lA.jpeg
+
+
