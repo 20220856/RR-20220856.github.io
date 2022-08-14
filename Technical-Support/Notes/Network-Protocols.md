@@ -76,7 +76,7 @@ Physical
 
 # IP Addresses.
 
-
+32 bits (4 bytes) made of network prefix & host number
 
 
 
