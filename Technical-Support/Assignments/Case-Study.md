@@ -22,3 +22,5 @@
 https://app.diagrams.net/#H20220856%2FResearch-Repository-20220856.github.io%2Fmain%2FTechnical-Support%2FAssignment-Network
 
 
+- Clarify Router vs Modem
+- Familiarise self with server infrastructure.
