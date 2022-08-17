@@ -16,11 +16,8 @@
 - The ability to connect a further two sites to the network in future.
 - The costs associated with purchasing components and establishing infrastructure.
 - Rationale and reasoning for the selection of components must be shown.
+#### The site must be prepared for future expansion to two further sites, therefore sufficient server infrastructure is required.
 
 ### The total available budget is $20,000 NZD.
 
 https://app.diagrams.net/#H20220856%2FResearch-Repository-20220856.github.io%2Fmain%2FTechnical-Support%2FAssignment-Network
-
-
-- Clarify Router vs Modem
-- Familiarise self with server infrastructure.
