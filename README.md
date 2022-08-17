@@ -12,4 +12,4 @@ This is my GitHub Research Repository, consisting of information I have learned 
 [Notes](./Technical-Support/Notes/)
 
 ## Research/Other
-[Reflective Journal](./Software-Development/Reflective-Journal.md/) <br>
+[Reflective Journal](./Research/Reflective-Journal.md/) <br>
