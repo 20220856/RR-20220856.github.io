@@ -5,8 +5,7 @@
  
  
 ## First Impressions
-Going into this course, I have very little coding experience, and what little I have learned while attempting to navigate GitHub so far has both been highly confusing, and greatly euphoric when I achieve success. I'm excited to see what more I can do.
- 
+Going into this course, I have very little coding experience, however I feel cautiously optimistic and relatively excited about the potential avenues to which this could lead me.
  
  
 # Week 1
