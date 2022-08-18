@@ -20,4 +20,4 @@
 
 ### The total available budget is $20,000 NZD.
 
-[Here](https://app.diagrams.net/#H20220856%2FResearch-Repository-20220856.github.io%2Fmain%2FTechnical-Support%2FAssignment-Network)
+Network Diagram is [Here](https://app.diagrams.net/#H20220856%2FResearch-Repository-20220856.github.io%2Fmain%2FTechnical-Support%2FAssignment-Network)
