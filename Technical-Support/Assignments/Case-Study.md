@@ -1,4 +1,4 @@
-# Technical Support Case Study - Identify Hardware for an Organisation
+# Technical Support Case Study - Establish a Network for an Organisation
 
 ### Task: Design a Network with the following requirements;
 
