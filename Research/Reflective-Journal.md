@@ -38,6 +38,8 @@ I would rate my confusion as anywhere between moderate and high, but I find myse
 ### Github Comprehension
 Through much trial and error, I would tentatively say that I have a solid understanding of at least the foundations of GitHub. I can navigate, manage file structure, format documents, and generally get things done without too many issues. I have not engaged with the "meat" of GitHub yet, as I have not collaboratively worked with anyone else on a group project, so my true comprehension remains to be seen. As of yet, I have simply used it as a pseudo-cloud-storage, from which I can access my work and notes at both Whitecliffe and at home. I truly dread to think how everyone else is managing - it must be difficult.
 
+### WIP
+
 # Week 4
 
 ### Server Infrastructure
