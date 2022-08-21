@@ -87,3 +87,10 @@ Class A IP addesses have 8 bits for the network number, and 24 bits for the host
 Class B have 16 bits for both the network and host numbers - it has two fixed bits - "10".
 Class C have 24 bits for the network number, and 8 for the host number. It has three fixed bits - "110".
 Class D and E have only 4 bits for the network number, and up to 28 bits for the host number. They have 4 fixed bits, "1110", and "1111" respectively.
+These appear as "Network Prefix - Host Number".
+
+These classes do have limitations, as - for example - class B addresses provide 65534 hosts/network, and class C addresses can handle 254 hosts/network. There is a huge disparity between these, and it is usually far above (for B) or far below (for C) the needs of an organisation. Say, for example, an organisation has a contingent of 1000 hosts. This means that they need 2^10 bits (1024 addresses) to properly connect to all devices (without, of course, the ability to expand). The class B addresses of 2^16 bits (65536 addresses) for hosts are far nore than are required for the needs of this network, and for class C, the 2^8 (256 addresses) is not nearly enough.
+
+This can be resolved through sub-netting - Subnets involve delegating the unneeded space on an IP into a secondary network that can be utilised by another group. The structure of a Subnet IP will appear as:
+"Network Prefix - Sub-net Number - Host Number".
+The first half - the Network Prefix, will always be the same between a subnet and the main network - as it is still technically a part of the address. This can be said to be combined with the Subnet number, to form an "Extended Network Prefix".
