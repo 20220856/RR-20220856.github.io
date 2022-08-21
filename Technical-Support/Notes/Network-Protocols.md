@@ -78,7 +78,7 @@ Information added on the source end by a level in the OSI model will be removed 
 
 # REVIEW [THIS](https://miro.medium.com/max/1024/1*17Zz6v0HWIzgiOzQYmO6lA.jpeg)
 
-# IP Addresses.
+# IP Addresses
 
 IP Addesses are handled by the third layer - the network layer.
 The first part of the IP address is the network-prefix, and the second is the host-number. The total amount of data must always be 32 bits, but the first or second can either be 8, 16, or 24 bits (with a corresponding increase or decrease to the other part).
