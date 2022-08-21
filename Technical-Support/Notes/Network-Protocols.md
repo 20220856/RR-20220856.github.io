@@ -56,7 +56,7 @@ Data Link - same as osi
 Physical - same as osi
 
 #### ETHERNET/802.3 Protocol
-Ethernet communication is phyical only communication for the local area network. 
+Ethernet communication is physical only communication for the local area network. 
 
 #### Wifi/802.11 Protocol
 figure this out
@@ -76,7 +76,7 @@ Physical
 
 Information added on the source end by a level in the OSI model will be removed on the receiving end by the same corresponding level.
 
-# REVIEW THIS https://miro.medium.com/max/1024/1*17Zz6v0HWIzgiOzQYmO6lA.jpeg
+# REVIEW [THIS](https://miro.medium.com/max/1024/1*17Zz6v0HWIzgiOzQYmO6lA.jpeg)
 
 # IP Addresses.
 
@@ -88,6 +88,7 @@ Class B have 16 bits for both the network and host numbers - it has two fixed bi
 Class C have 24 bits for the network number, and 8 for the host number. It has three fixed bits - "110".
 Class D and E have only 4 bits for the network number, and up to 28 bits for the host number. They have 4 fixed bits, "1110", and "1111" respectively.
 These appear as "Network Prefix - Host Number".
+This means that Class A Addresses can begin from 001.x.x.x to 126.x.x.x, Class B addresses can be from 128.x.x.x to 254.x.x.x, and that Class C Addresses can be above 265.x.x.x+.
 
 These classes do have limitations, as - for example - class B addresses provide 65534 hosts/network, and class C addresses can handle 254 hosts/network. There is a huge disparity between these, and it is usually far above (for B) or far below (for C) the needs of an organisation. Say, for example, an organisation has a contingent of 1000 hosts. This means that they need 2^10 bits (1024 addresses) to properly connect to all devices (without, of course, the ability to expand). The class B addresses of 2^16 bits (65536 addresses) for hosts are far nore than are required for the needs of this network, and for class C, the 2^8 (256 addresses) is not nearly enough.
 
