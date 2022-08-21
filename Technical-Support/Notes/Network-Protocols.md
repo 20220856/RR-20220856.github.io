@@ -74,16 +74,16 @@ Network
 Data Link
 Physical
 
-# IP Addresses.
-
-32 bits (4 bytes) made of network prefix & host number
-
-
-
-to connect 2 different sites a ROUTER is used - connecting two sites together wirelessly. a SWITCH is used to manage internal networks. 
-
 Information added on the source end by a level in the OSI model will be removed on the receiving end by the same corresponding level.
 
 # REVIEW THIS https://miro.medium.com/max/1024/1*17Zz6v0HWIzgiOzQYmO6lA.jpeg
 
+# IP Addresses.
 
+IP Addesses are handled by the third layer - the network layer.
+The first part of the IP address is the network-prefix, and the second is the host-number. The total amount of data must always be 32 bits, but the first or second can either be 8, 16, or 24 bits (with a corresponding increase or decrease to the other part).
+
+Class A IP addesses have 8 bits for the network number, and 24 bits for the host number. It has one fixed bit - "1".
+Class B have 16 bits for both the network and host numbers - it has two fixed bits - "10".
+Class C have 24 bits for the network number, and 8 for the host number. It has three fixed bits - "110".
+Class D and E have only 4 bits for the network number, and up to 28 bits for the host number. They have 4 fixed bits, "1110", and "1111" respectively.
