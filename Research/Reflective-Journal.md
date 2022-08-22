@@ -53,5 +53,5 @@ After having repeatedly hunted my professors down to ask them questions correspo
 
 # Week 5
 
-### Stand-up AGILE coding
+### Stand-Up AGILE Coding Ritual
 Today, Roman took us through our first taste of an - allegedly - real world AGILE ritual; he had the class assemble into a circle, and share certain information and ideas for our projects. Whilst I understand the exercise was intended to demonstrate the building of camraderie between peers, and allow greater collaboration between members of a team, I feel that in this particular instance, not much meaning was carried behind the gesture, as everyone is working separately on their own projects. Later on this week, we will be doing more AGILE rituals with Roman's guidance. It was interesting to hear Roman's suggestions about my concept of a non-scratch-based 2D/Isometrical visual game of some sort, apparently there is a leftover course within Whitecliffe to facilitate this sort of activity - I'll have to look into it.
