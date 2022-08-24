@@ -35,7 +35,9 @@ Identify the following for each IP address:
 254
 
 ### What is the IP address of host 3 on subnet 2? 
-205.11.4.2
+205.11.2.4
+
+# This is not correct - fix it
 
 ## Task-3:  
 Your organization has been assigned the network number 150.25.0.0/16 and it needs to create a set of subnets that supports up to 150 hosts on each subnet. 
