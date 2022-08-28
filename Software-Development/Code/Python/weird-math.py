@@ -13,3 +13,4 @@ try: # This TRY assumes TWO integer user inputs, and redirects to the EXCEPT if 
         print("One or both numbers are not divisible by neither 2 nor 3, but their sum is",z)
 except ValueError: # If the input is NOT specifically TWO integers, prints this error
     print("Error: Please ensure you enter two whole numbers.")
+# This one was a challenge
