@@ -5,7 +5,7 @@ This is my GitHub Research Repository, consisting of information I have learned 
 # Add an Auto-runner to code to show greater understanding.
 
 ## Software Development
-[Assignments](./Software-Development/Assignments/) <br>
+[Assignments](./Software-Development/Assignments/) (obselete)<br>
 [Notes](./Software-Development/Notes/)
 
 
