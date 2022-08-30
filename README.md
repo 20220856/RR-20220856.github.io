@@ -4,7 +4,7 @@ This is my GitHub Research Repository, consisting of information I have learned 
 
 ## Research, and Python Koans
 [Reflective Journal](./Research/Reflective-Journal.md/) <br>
-[Python Koans](https://github.com/20220856/python_koans)<br>
+[Python Koans Completion](https://github.com/20220856/python_koans) and [Python Kones Notes](temp)<br>
 I am frankly surprised by how much I have learned from, and enjoyed these Python Koans - I felt the need to include this on the main page because they are simply so interesting.
 
 ## Software Development
