@@ -2,7 +2,8 @@
 
 This is my GitHub Research Repository, consisting of information I have learned so far, and projects I may or may not have completed. Additionally, I am storing my general note-taking here for ease of access.
 
-# Add an Auto-runner to code to show greater understanding.
+## Python KOANS
+My current completion of the Koans can be found [here](https://github.com/20220856/python_koans)
 
 ## Software Development
 [Assignments](./Software-Development/Assignments/) (obselete)<br>
