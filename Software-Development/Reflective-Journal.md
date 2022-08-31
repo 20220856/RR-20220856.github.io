@@ -58,4 +58,4 @@ Today, Roman took us through our first taste of an - allegedly - real world AGIL
 
 ### Research, and Inspirations
 
-[This](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#html) GitHub repository has served as a godsend when it comes to trying to figure out how to format on Github. Markdown hasn't been touched on at all in class, so I was more or less stumbling around blind before I found this expressive and concise repository full of information regarding exactly what I was looking for.
+[This GitHub Repository](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#html) has served as a godsend when it comes to trying to figure out how to format on Github. Markdown hasn't been touched on at all in class, so I was more or less stumbling around blind before I found this expressive and concise repository full of information regarding exactly what I was looking for.
