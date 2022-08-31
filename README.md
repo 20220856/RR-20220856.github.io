@@ -10,7 +10,8 @@ The general reflective journal of my thoughts and knowledge gained throughout th
 I am frankly surprised by how much I have learned from, and enjoyed these Python Koans - I felt the need to include this on the main page because they are simply so interesting.
 
 ## Software Development
-[Assignments](./Software-Development/Assignments/) (obselete)<br>
+[~~Assignments~~](./Software-Development/Assignments/)<br>
+Currently obselete - there isn't a whole lot here.
 [Notes](./Software-Development/Notes/)
 
 
