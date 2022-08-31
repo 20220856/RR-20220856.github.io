@@ -28,3 +28,27 @@ This was not something I knew -- multiple strings placed next to each other will
         hi += there
         self.assertEqual("Hello, ", original)
 Rather than overwriting a variable (such as in the case of "a=b" - the original value of a is lost), += conserves the original value of the variable, appending the second variable to the end rather than overwriting it. This is very good to know, and may have in fact been beneficial during some of our coding exercises.
+
+## Lists
+### Accessing List Elements
+    def test_accessing_list_elements(self):
+        noms = ['peanut', 'butter', 'and', 'jelly']
+
+        self.assertEqual("peanut", noms[0])
+        self.assertEqual("jelly", noms[3])
+        self.assertEqual("jelly", noms[-1])
+        self.assertEqual("butter", noms[-3])
+This took more time for me to understand than I would care to admit. Referencing list elements can be done from the right side through the use of negative numbers. Useful in smaller lists where "for i in list" might not be applicable, but then I fail to see why one would not just right the list reference as a positive integer. I'm sure it has applications either way.
+
+### Slicing parts of Lists
+    def test_slicing_lists(self):
+        noms = ['peanut', 'butter', 'and', 'jelly']
+
+        self.assertEqual(["peanut"], noms[0:1])
+        self.assertEqual(["peanut","butter"], noms[0:2])
+        self.assertEqual([], noms[2:2])
+        self.assertEqual(["and","jelly"], noms[2:20])
+        self.assertEqual([], noms[4:0])
+        self.assertEqual([], noms[4:100])
+        self.assertEqual([], noms[5:0])
+A useful way to reference multiple items in a list; and something I did not know. Relatively self explanatory, and good to know that lists cannot be recursively referenced (using example above, noms[4:100] does not cause the program to expect a recursion until 100 items are presented.
