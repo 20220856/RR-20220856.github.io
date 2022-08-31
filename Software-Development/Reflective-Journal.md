@@ -55,6 +55,7 @@ After having repeatedly hunted my professors down to ask them questions correspo
 Today, Roman took us through our first taste of an - allegedly - real world AGILE ritual; he had the class assemble into a circle, and share certain information and ideas for our projects. Whilst I understand the exercise was intended to demonstrate the building of camraderie between peers, and allow greater collaboration between members of a team, I feel that in this particular instance, not much meaning was carried behind the gesture, as everyone is working separately on their own projects. Later on this week, we will be doing more AGILE rituals with Roman's guidance. Throughout the AGILE ritual, it seemed to me that a lot of ideas from others were either overambitious for their experience in coding, or outright impossible for this level - which is somewhat of a bad omen for peoples' assumed understandings of the programming we have attempted so far. However, it was interesting to hear Roman's suggestions about my concept of a non-scratch-based 2D/Isometrical visual game of some sort, apparently there is a leftover course within Whitecliffe to facilitate this sort of activity - I'll have to look into it.
 
 ---
----
 
 ### Research, and Inspirations
+
+[This](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#html) GitHub repository has served as a godsend when it comes to trying to figure out how to format on Github. Markdown hasn't been touched on at all in class, so I was more or less stumbling around blind before I found this expressive and concise repository full of information regarding exactly what I was looking for.
