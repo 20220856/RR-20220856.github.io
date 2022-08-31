@@ -51,4 +51,29 @@ This took more time for me to understand than I would care to admit. Referencing
         self.assertEqual([], noms[4:0])
         self.assertEqual([], noms[4:100])
         self.assertEqual([], noms[5:0])
-A useful way to reference multiple items in a list; and something I did not know. Relatively self explanatory, and good to know that lists cannot be recursively referenced (using example above, noms[4:100] does not cause the program to expect a recursion until 100 items are presented.
+A useful way to reference multiple items in a list; and something I did not know. Relatively self explanatory, and good to know that lists cannot be recursively referenced (using example above, noms[4:100] does not cause the program to expect a recursion until 100 items are presented).
+
+### Inserting into lists
+    def test_insertions(self):
+        knight = ['you', 'shall', 'pass']
+        knight.insert(2, 'not')
+        self.assertEqual(["you", "shall", "not", "pass"],knight)
+
+        knight.insert(0, 'Arthur')
+        self.assertEqual(["Arthur","you","shall","not","pass"], knight)
+I did not know that you can insert into lists in such a fashion - a handy piece of information, and one that I'm sure is invaluable when trying to manage larger datasets.
+
+## List Assignments
+### Parallel Assignments
+    def test_parallel_assignments_with_extra_values(self):
+        title, *first_names, last_name = ["Sir", "Ricky", "Bobby", "Worthington"]
+        self.assertEqual("Sir", title)
+        self.assertEqual(["Ricky","Bobby"], first_names)
+        self.assertEqual("Worthington", last_name)
+
+    def test_parallel_assignments_with_fewer_values(self):
+        title, *first_names, last_name = ["Mr", "Bond"]
+        self.assertEqual("Mr", title)
+        self.assertEqual([], first_names)
+        self.assertEqual("Bond", last_name)
+It was interesting to learn that parts of a list can be referenced and assigned to variables in this manner. I was - and I cannot stress this enough - *extremely* confused initially by the fact that - especially in the case of the second example, first_names was unassigned. However, I do understand now - progress!
