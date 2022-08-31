@@ -1,8 +1,7 @@
 # Reflective Journal
 
 #### I will be including my opinions and personal insights in this document, hence the volume.
- 
- 
+
  
 ## First Impressions
 Going into this course, I have very little coding experience, however I feel cautiously optimistic and relatively excited about the potential avenues to which this could lead me.
@@ -60,8 +59,10 @@ I am - so far - quite impressed with the progress I have made in Software Develo
 
 In terms of any struggles I have had with this course so far, I must say they are few and far-between. My understanding has generally been sound, and anywhere I have been lacking I feel I have been able to quickly bring myself back up to speed. I cannot say the content is easy - because it definitely isn't straightforward coming from the standpoint of someone who has minimal coding experience, however my limited background in programming (consisting solely of a half-a-year secondary school curriculum in 2018, in which young me barely paid attention) has - surprisingly - laid the groundworks for my understanding in this course. Sure, that quickly wore off as we became more immersed in the course contents, but it prevented any initial feelings of being out of my depth, which I feel has provided me a real, tangible, psychological advantage over some of my peers, who I have seen be, unfortunately, seemingly out of their depths since day one.
 
-I will also answer one of Roman's proposed items to answer for this Research Repository, purely because I think it is funny, and may provide insight into my psyche.
+I will also answer one of Roman's proposed items to answer for this Research Repository, purely because I think it is funny;
+
 ### If you were describing programming to someone who knows nothing about it, what would you say?
+Well, that really depends on whom I am trying to describe programming to. 
 ---
 ### Research, and Inspirations
 
