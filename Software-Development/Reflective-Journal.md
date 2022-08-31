@@ -54,16 +54,28 @@ After having repeatedly hunted my professors down to ask them questions correspo
 Today, Roman took us through our first taste of an - allegedly - real world AGILE ritual; he had the class assemble into a circle, and share certain information and ideas for our projects. Whilst I understand the exercise was intended to demonstrate the building of camraderie between peers, and allow greater collaboration between members of a team, I feel that in this particular instance, not much meaning was carried behind the gesture, as everyone is working separately on their own projects. Later on this week, we will be doing more AGILE rituals with Roman's guidance. Throughout the AGILE ritual, it seemed to me that a lot of ideas from others were either overambitious for their experience in coding, or outright impossible for this level - which is somewhat of a bad omen for peoples' assumed understandings of the programming we have attempted so far. However, it was interesting to hear Roman's suggestions about my concept of a non-scratch-based 2D/Isometrical visual game of some sort, apparently there is a leftover course within Whitecliffe to facilitate this sort of activity - I'll have to look into it.
 
 ---
+
 ### Self Reflections
 I am - so far - quite impressed with the progress I have made in Software Development. Honestly I am incredibly surprised I have enjoyed it to the degree I have. Coming into this course, I had been under the impression that Software Development was not for me, and just a necessary part of the course to pass Technical Support, however having done it, I now see that this is absolutely not the case. I understand that we have - so far - barely touched on what it would mean to coordinate in a team with programming, as fully-fledged Software Developers do, but from what we have done so far, I find my curiosity piqued, and myself surprisingly engaged with the course material. If you're reading this, Roman, my interest is probably largely in part to your teaching style - it makes it very easy to stay engaged with your lessons, and absorb course contents.
 
 In terms of any struggles I have had with this course so far, I must say they are few and far-between. My understanding has generally been sound, and anywhere I have been lacking I feel I have been able to quickly bring myself back up to speed. I cannot say the content is easy - because it definitely isn't straightforward coming from the standpoint of someone who has minimal coding experience, however my limited background in programming (consisting solely of a half-a-year secondary school curriculum in 2018, in which young me barely paid attention) has - surprisingly - laid the groundworks for my understanding in this course. Sure, that quickly wore off as we became more immersed in the course contents, but it prevented any initial feelings of being out of my depth, which I feel has provided me a real, tangible, psychological advantage over some of my peers, who I have seen be, unfortunately, seemingly out of their depths since day one.
 
-I will also answer one of Roman's proposed items to answer for this Research Repository, purely because I think it is funny;
+I will also answer one of Roman's proposed items for this Research Repository, purely because I think it is a funny theoretical;
 
 ### If you were describing programming to someone who knows nothing about it, what would you say?
-Well, that really depends on whom I am trying to describe programming to. 
+Well, that really depends on whom I am trying to describe programming to - I feel I could provide vastly different answers based on the circumstance;
+
+To a close friend of mine, I might tell them that they really ought to know about what programming is without having to ask me, but that it is - to summarise, a way for people to write in a certain way - called "coding", using a piece of software that can turn what you wrote into something a computer can understand.
+
+However to - for example - my mother, I would probably tell her that she doesn't need to worry about it, because she wouldn't understand, and we'd both probably end up laughing and she'd agree.
+
+Perhaps to a prospective employer? First of all, I would be disappointed, but unfortunately unsurprised that a potential employer was clueless about coding. Depending on how I felt things were going, I may either try to provide a genuine, simplified explanation, with them hopefully following along, **OR** launch into a spiel involving as many buzzwords as possible, intentionally obfuscating a relatively easy-to-describe topic in order to seem more qualified -- might make me look good, might not. Who knows.
+
+And to you, Roman, I would try to provide as textbook-an-answer as I could, since I am being marked on this;
+![image](https://user-images.githubusercontent.com/110361869/187791337-34861da1-a5cd-4066-ab4a-1bb58e87902f.png)
+
 ---
+
 ### Research, and Inspirations
 
 [This GitHub Repository](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) has served as a godsend when it comes to trying to figure out how to format on Github. Markdown hasn't been touched on at all in class, so I was more or less stumbling around blind before I found this expressive and concise repository full of information regarding exactly what I was looking for.
