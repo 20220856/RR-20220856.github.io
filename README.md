@@ -11,7 +11,7 @@ I am frankly surprised by how much I have learned from, and enjoyed these Python
 
 ## Software Development
 [Code](./Software-Development/Code/Python/)<br>
-A collection of the code that I have personally written so far. Currently, Python is the only language in which we have written code (barring Scratch), therefore this link references directly to the Python directory.<br><br>
+A collection of the code that I have personally written so far. Currently, Python is the only language in which we have written code (barring Scratch), therefore this link references directly to the Python directory. All of my code has heavy documentation, for the purpose of showing understanding.<br><br>
 [~~Assignments~~](./Software-Development/Assignments/)<br>
 Currently obselete - there isn't a whole lot here. Plus, this repository itself is the first assignment.<br><br>
 [Notes](./Software-Development/Notes/)<br>
