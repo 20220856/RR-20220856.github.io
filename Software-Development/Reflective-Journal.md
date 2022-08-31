@@ -89,6 +89,8 @@ And to you, Roman, I would try to provide as textbook-an-answer as I could, sinc
 
 I feel associating with my peers, and doing my best to assist them in their learning has also greatly expanded my own understanding of the course content so far, and has been extremely mutually beneficial. As the expression goes, it turns out you do not truly understand something until you can teach it to another person - something I came to realise when I would try to explain something, only to come up short myself. This experience has really helped me expand my understanding of areas I may have otherwise overlooked, and not even realised I didn't understand.
 
+Most of my research has just been browsing material from MS Teams and Canvas, so I don't actually have too much to show here - my understanding has generally been sound, so I haven't had to search a lot up online.
+
 ---
 
 ### My thoughts on the Reflective Journal
