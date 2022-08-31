@@ -59,3 +59,5 @@ Today, Roman took us through our first taste of an - allegedly - real world AGIL
 ### Research, and Inspirations
 
 [This GitHub Repository](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#html) has served as a godsend when it comes to trying to figure out how to format on Github. Markdown hasn't been touched on at all in class, so I was more or less stumbling around blind before I found this expressive and concise repository full of information regarding exactly what I was looking for.
+
+I feel associating with my peers, and doing my best to assist them in their learning has also greatly expanded my own understanding of the course content so far, and has been extremely mutually beneficial. As the expression goes, it turns out you do not truly understand something until you can teach it to another person - something I came to realise when I would try to explain something, only to come up short myself. This experience has really helped me expand my understanding of areas I may have otherwise overlooked, and not even realised I didn't understand.
