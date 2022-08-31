@@ -2,6 +2,12 @@
 This will serve as a collection of the experiences I have had so far with Python Koans. As of so far, I have found them to be engaging, thought-provoking, interesting, and rather challenging.
 
 ## Strings
+### Backslashes for quotation
+    def test_use_single_quotes_to_create_string_with_double_quotes(self):
+        string = 'He said, \"Go Away.\"'
+        self.assertEqual("He said, \"Go Away.\"", string)
+I cannot describe the degree to which this problem initially had me confused. I must have pondered it for about an hour before I could figure out what the Kone was asking of me. The objective of the exercise is to prove that double-quotes can be used inside a double-quoted string, as long as they are preceeded by a backslash. In retrospect, the answer is obvious, but my journey there was rather frustrating -- imagine my relief when I figured it out.
+
 ### Automatically Concatenated Strings
     def test_adjacent_strings_are_concatenated_automatically(self):
         string = "Hello" ", " "world"
