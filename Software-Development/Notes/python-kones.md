@@ -77,3 +77,37 @@ I did not know that you can insert into lists in such a fashion - a handy piece 
         self.assertEqual([], first_names)
         self.assertEqual("Bond", last_name)
 It was interesting to learn that parts of a list can be referenced and assigned to variables in this manner. I was - and I cannot stress this enough - *extremely* confused initially by the fact that - especially in the case of the second example, first_names was unassigned. However, I do understand now - progress!
+
+## Dictionaries 
+### Dictionary Literals
+    def test_dictionary_literals(self):
+        empty_dict = {}
+        self.assertEqual(dict, type(empty_dict))
+        babel_fish = { 'one': 'uno', 'two': 'dos' }
+        self.assertEqual(2, len(babel_fish))
+Only the keys in a dictionary - and NOT all of the individual values are considered in the dictionary. It took me a while to understand that fact.
+## Equality of Keys and Values
+    def test_accessing_dictionaries(self):
+        babel_fish = { 'one': 'uno', 'two': 'dos' }
+        self.assertEqual("uno", babel_fish['one'])
+        self.assertEqual("dos", babel_fish['two'])
+Values in a dictionary are always equal to the Key from which they stem - a mildly difficult concept to get my head around - never before have I seen a scenario in which (True=("uno"="one")), but it turns out that, using the example above, it is certainly a possibility within a dictionary. *(also yes, I know that is not quite what is going on, but that was my initial thought process while trying to solve the Koan - hence my confusion*
+
+## Disorganised Dictionaries
+    def test_dictionary_is_unordered(self):
+        dict1 = { 'one': 'uno', 'two': 'dos' }
+        dict2 = { 'two': 'dos', 'one': 'uno' }
+
+        self.assertEqual(True, dict1 == dict2)
+It, apparently, does not matter if a dictionary is out of order. The more you know.
+
+## Keys and Values
+    def test_dictionary_keys_and_values(self):
+        babel_fish = {'one': 'uno', 'two': 'dos'}
+        self.assertEqual(2, len(babel_fish.keys()))
+        self.assertEqual(2, len(babel_fish.values()))
+        self.assertEqual(True, 'one' in babel_fish.keys())
+        self.assertEqual(False, 'two' in babel_fish.values())
+        self.assertEqual(False, 'uno' in babel_fish.keys())
+        self.assertEqual(True, 'dos' in babel_fish.values())
+This was the exercise that really helped me understand the difference between a Key and a Value. I had a hard time understanding, but then once I did, the material is extremely simple. I'm glad I persevered.
