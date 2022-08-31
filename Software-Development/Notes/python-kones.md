@@ -86,14 +86,14 @@ It was interesting to learn that parts of a list can be referenced and assigned 
         babel_fish = { 'one': 'uno', 'two': 'dos' }
         self.assertEqual(2, len(babel_fish))
 Only the keys in a dictionary - and NOT all of the individual values are considered in the dictionary. It took me a while to understand that fact.
-## Equality of Keys and Values
+### Equality of Keys and Values
     def test_accessing_dictionaries(self):
         babel_fish = { 'one': 'uno', 'two': 'dos' }
         self.assertEqual("uno", babel_fish['one'])
         self.assertEqual("dos", babel_fish['two'])
 Values in a dictionary are always equal to the Key from which they stem - a mildly difficult concept to get my head around - never before have I seen a scenario in which (True=("uno"="one")), but it turns out that, using the example above, it is certainly a possibility within a dictionary. *(also yes, I know that is not quite what is going on, but that was my initial thought process while trying to solve the Koan - hence my confusion*
 
-## Disorganised Dictionaries
+### Disorganised Dictionaries
     def test_dictionary_is_unordered(self):
         dict1 = { 'one': 'uno', 'two': 'dos' }
         dict2 = { 'two': 'dos', 'one': 'uno' }
@@ -101,7 +101,7 @@ Values in a dictionary are always equal to the Key from which they stem - a mild
         self.assertEqual(True, dict1 == dict2)
 It, apparently, does not matter if a dictionary is out of order. The more you know.
 
-## Keys and Values
+### Keys and Values
     def test_dictionary_keys_and_values(self):
         babel_fish = {'one': 'uno', 'two': 'dos'}
         self.assertEqual(2, len(babel_fish.keys()))
@@ -111,3 +111,5 @@ It, apparently, does not matter if a dictionary is out of order. The more you kn
         self.assertEqual(False, 'uno' in babel_fish.keys())
         self.assertEqual(True, 'dos' in babel_fish.values())
 This was the exercise that really helped me understand the difference between a Key and a Value. I had a hard time understanding, but then once I did, the material is extremely simple. I'm glad I persevered.
+
+# Currently Completed up to my progress in the Koans, will update in future.
