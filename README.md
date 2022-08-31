@@ -17,6 +17,3 @@ I am frankly surprised by how much I have learned from, and enjoyed these Python
 ## Technical Support
 [Assignments](./Technical-Support/Assignments/) <br>
 [Notes](./Technical-Support/Notes/)
-
-## Research/Other
-[Reflective Journal](./Research/Reflective-Journal.md/) <br>
