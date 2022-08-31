@@ -6,6 +6,7 @@
 ## First Impressions
 Going into this course, I have very little coding experience, however I feel cautiously optimistic and relatively excited about the potential avenues to which this could lead me.
  
+---
  
 # Week 1
 
@@ -18,7 +19,7 @@ Visual coding is - as mentioned above - a means of writing a coherent string of 
 ### What are some Programming Principles I have discovered?
 As of yet, I have not learned how to do too much. This week functioned as a fantastic refresher on Scratch, but I am left thoroughly confused on even the basics of GitHub.
 
-
+---
 
 # Week 2
 
@@ -32,10 +33,14 @@ Ah, GitHub, this joy of a website. It is a cloud-hosted variant of the version-c
 ### How is my understanding so far?
 I would rate my confusion as anywhere between moderate and high, but I find myself - surprisingly - not entirely lost. I am optimistic for the future.
 
+---
+
 # Week 3
 
 ### Github Comprehension
 Through much trial and error, I would tentatively say that I have a solid understanding of at least the foundations of GitHub. I can navigate, manage file structure, format documents, and generally get things done without too many issues. I have not engaged with the "meat" of GitHub yet, as I have not collaboratively worked with anyone else on a group project, so my true comprehension remains to be seen. As of yet, I have simply used it as a pseudo-cloud-storage, from which I can access my work and notes at both Whitecliffe and at home. I truly dread to think how everyone else is managing - it must be difficult.
+
+---
 
 # Week 4
 
@@ -47,6 +52,8 @@ After having repeatedly hunted my professors down to ask them questions correspo
 
 ### Video Train, and Meanings
 "Graphs" have been a central talking point of the day. Under the lens of computer science, a "graph" is a collation of data, used to illustrate the flow of information from one dataset to another. Today in class, Roman decided to provide an introspective, practical example of this - he instructed the class to gather, and have each person film another until someone went out of frame - at which event "cut!" would be yelled, and everyone would stop. It was truly peculiar - nobody managed to coordinate, and the end result was a collation of largely sporadic and uncurated videos side by side. However, the objective of the excercise was for the nature of the relationship between seemingly unrelated datapoints to be used to produce a meaningful outcome. It is intended to be an artistic rendition of Peer-to-Peer communication within a network. In my personal opinion, the example was a bit outlandish, but I've come to grasp that the outlandishness was the entire point; through forcing an unusual perspective, creative freedom of interpretation is exercised. I have a better understanding writing this now, than when the demonstration was in effect *(ie. I was entirely clueless at the time)*
+
+---
 
 # Week 5
 
