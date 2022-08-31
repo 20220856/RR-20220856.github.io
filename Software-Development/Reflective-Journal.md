@@ -91,8 +91,15 @@ I feel associating with my peers, and doing my best to assist them in their lear
 
 ---
 
-### My thoughts on the Reflective Journal and Course themselves
+### My thoughts on the Reflective Journal
 Honestly, I have very mixed feelings - this reflective journal has definitely gotten my narrative mind flowing, and thinking about how to put coding concepts into words that can be understood with relative ease, certainly helping me to expand my understanding. Throughout, I have tried to generally write in a concise, informative way, both for myself and for the purpose of marking, and that has been great for ensuring that I understand the fundamentals. However, with writing a reflective journal, I cannot help but feel like a lot of time has been detracted from course contents that could otherwise have been spent furthering our understandings of programming principles. Writing this, I know that everyone learns differently, and that different approaches have varying degrees of success for people, but it feels like the process of reflection is more serving to sharpen my literary skills than anything software-related. I suppose there is a lot to take into account when it comes to the assignment of coursework, and I certainly can't claim to know best, and hell, maybe just the way I've chosen to lay the reflective journal out has made it more literary than that of others -- I truly have no clue.
 To summarise, I think it's an excellent teaching tool, but the reflective aspect doesn't really click with me - that's something I like to do as I learn in the first place.
 
-The course itself has been - for lack of a better word - fantastic so far. 
+In terms of the quality of my work, I'd like to think that I have done a very good job, and have completely fulfulled the requirements for full marks on the Research Repository. The final decision obviously does not fall to me, but I feel the quality of my work is - as far as research repositories go - quite high.
+
+---
+
+### My thoughts on the Course as a whole
+The course itself has been - for lack of a better word - fantastic so far. I am really astounded at the quality of teaching compared to some other institutions I have studied at in the past, and I've honestly had an excellent time learning both Software Development, and Technical Support. In fact, I have decided that I will almost certainly be attending next year as well, to further my education from just a Diploma in Technical Support. I didn't think I would be enjoying this as much as I am, but I find myself pleasantly surprised.
+
+I don't really have too much to say about the course as a whole -- it's really good. I'm enjoying myself, and interested in the content. I'm certainly happy with that.
