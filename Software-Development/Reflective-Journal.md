@@ -72,7 +72,7 @@ However to - for example - my mother, I would probably tell her that she doesn't
 Perhaps to a prospective employer? First of all, I would be disappointed, but unfortunately unsurprised that a potential employer was clueless about coding. Depending on how I felt things were going, I may either try to provide a genuine, simplified explanation, with them hopefully following along, **OR** launch into a spiel involving as many buzzwords as possible, intentionally obfuscating a relatively easy-to-describe topic in order to seem more qualified -- might make me look good, might not. Who knows.
 
 And to you, Roman, I would try to provide as textbook-an-answer as I could, since I am being marked on this;
-![image](https://user-images.githubusercontent.com/110361869/187791337-34861da1-a5cd-4066-ab4a-1bb58e87902f.png)
+![image](https://user-images.githubusercontent.com/110361869/187791337-34861da1-a5cd-4066-ab4a-1bb58e87902f.png)<br>
 
 ---
 
@@ -81,3 +81,11 @@ And to you, Roman, I would try to provide as textbook-an-answer as I could, sinc
 [This GitHub Repository](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) has served as a godsend when it comes to trying to figure out how to format on Github. Markdown hasn't been touched on at all in class, so I was more or less stumbling around blind before I found this expressive and concise repository full of information regarding exactly what I was looking for.
 
 I feel associating with my peers, and doing my best to assist them in their learning has also greatly expanded my own understanding of the course content so far, and has been extremely mutually beneficial. As the expression goes, it turns out you do not truly understand something until you can teach it to another person - something I came to realise when I would try to explain something, only to come up short myself. This experience has really helped me expand my understanding of areas I may have otherwise overlooked, and not even realised I didn't understand.
+
+---
+
+### My thoughts on the Reflective Journal and Course themselves
+Honestly, I have very mixed feelings - this reflective journal has definitely gotten my narrative mind flowing, and thinking about how to put coding concepts into words that can be understood with relative ease, certainly helping me to expand my understanding. Throughout, I have tried to generally write in a concise, informative way, both for myself and for the purpose of marking, and that has been great for ensuring that I understand the fundamentals. However, with writing a reflective journal, I cannot help but feel like a lot of time has been detracted from course contents that could otherwise have been spent furthering our understandings of programming principles. Writing this, I know that everyone learns differently, and that different approaches have varying degrees of success for people, but it feels like the process of reflection is more serving to sharpen my literary skills than anything software-related. I suppose there is a lot to take into account when it comes to the assignment of coursework, and I certainly can't claim to know best, and hell, maybe just the way I've chosen to lay the reflective journal out has made it more literary than that of others -- I truly have no clue.
+To summarise, I think it's an excellent teaching tool, but the reflective aspect doesn't really click with me - that's something I like to do as I learn in the first place.
+
+The course itself has been - for lack of a better word - fantastic so far. 
