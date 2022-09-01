@@ -19,7 +19,7 @@ A collection of the code that I have personally written so far. Currently, Pytho
 [~~Assignments~~](./Software-Development/Assignments/)<br>
 Currently obselete - there isn't a whole lot here. Plus, this repository itself is the first assignment.<br><br>
 [Notes](./Software-Development/Notes/)<br>
-My current notes, having been taken in classes regarding Software Development. Admittedly, there isn't a lot here, but that is due to the fact that the course is more hands-on than anything else, and my time has mostly been spend coding or exploring materials provided to me on Canvas/MS Teams, rather than writing notes.<br><br>
+My current notes, having been taken in classes regarding Software Development. Admittedly, there isn't a lot here, but that is due to the fact that the course is more hands-on than anything else, and my time has mostly been spent programming things myself or exploring materials provided to me on Canvas/MS Teams, rather than writing notes.<br><br>
 
 ---
 
