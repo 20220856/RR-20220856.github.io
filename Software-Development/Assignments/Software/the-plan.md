@@ -8,3 +8,5 @@ some kind of obstacle/terrain for the grid map
 npc entities / score
 
 easy enough
+
+# If feeling particularly gigachad - do knight's tour problem
