@@ -17,10 +17,10 @@ This is the the comprehensive list of components for the Auckland site, and just
 
 ---
 
-[Call Prioritisation System & Communication Channel](./Prioritisation-System.md/) <br>
+### [Call Prioritisation System & Communication Channel](./Prioritisation-System.md/) <br>
 This is the call prioritisation system and communication channel for Spring Computers, and includes relevant information for the establishment of such a system.
 
 ---
 
-[Summary and Conclusion](./Summary.md/)
+### [Summary and Conclusion](./Summary.md/)
 Finally, this is a summary of the expendature on the budget, and confirmation that all required points have been covered.
