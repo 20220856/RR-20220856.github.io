@@ -2,7 +2,7 @@
 
 ---
 
-## [Project Brief](./Brief.md/)<br>
+### [Project Brief](./Brief.md/)<br>
 
 ---
 
