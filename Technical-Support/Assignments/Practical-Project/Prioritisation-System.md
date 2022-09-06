@@ -8,9 +8,17 @@ For the specific case of Spring Computers, I would advise using a system akin to
 # Call Priorities
 
 ### Highest Priority - Critical / Emergency Issues
+
+
 ### Second Priority - Important Issues / Longterm Degradation
+
+
 ### Third Priority - Non-Critical Issues / Technical Support
+
+
 ### Low Priority - Ineffectual / Cosmetic Issues
+
+
 
 # Prioritisation in Practice
 
