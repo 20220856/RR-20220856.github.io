@@ -7,3 +7,5 @@
 [List of Components](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2F20220856%2FRR-20220856.github.io%2Fmain%2FTechnical-Support%2FAssignments%2FPractical-Project%2FList-Comp-Final.xlsx&wdOrigin=BROWSELINK) - The comprehensive list of components and justifications for the Auckland site
 
 [Call Prioritisation System & Communication Channel](./Prioritisation-System.md/) - The call prioritisation system and communication channel for Spring Computers
+
+[Summary and Conclusion](./Summary.md/)
