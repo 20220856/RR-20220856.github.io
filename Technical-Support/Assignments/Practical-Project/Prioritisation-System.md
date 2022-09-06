@@ -8,7 +8,7 @@ For the specific case of Spring Computers, I would advise using a system akin to
 # Call Priorities
 
 ### Highest Priority - Critical / Emergency Issues
-[test](././././Software-Development/Notes/)
+
 
 ### Second Priority - Important Issues / Longterm Degradation
 
