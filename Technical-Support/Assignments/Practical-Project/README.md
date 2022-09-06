@@ -1,5 +1,4 @@
 # Practical Project Case Study - Spring Computers 
-
 ---
 
 ### [Project Brief](./Brief.md/)<br>
