@@ -14,11 +14,10 @@ For Spring Computers, the highest priority issues would be those in which busine
 The second highest priority for Spring Computers should be ensuring that all maintainence requests by clients, and other important issues be resolved as soon as possible. These may include faults that strain the business without outright ceasing operations (such as a fault in automated systems), or physical degradation of non-critical components. These - whilst important - are able to be handled second due to their nature as non-essential issues (characterised by the fact that the business can - if only temporarily - operate without them).
 
 ### Third Priority - Non-Critical Issues / Technical Support
-The third priority of Spring Computers should be that of non-critical issues that pose no danger to businesses or individuals, and other support to existing customers. Components that still function, but suffer a decrease in performance or stability fall into this category, alongside issues that may be inconvenient, but are able to be overlooked. 
+The third priority of Spring Computers should be that of non-critical issues that pose no danger to businesses or individuals, and other support to existing customers. Components that still function, but suffer a decrease in performance or stability fall into this category, alongside issues that may be inconvenient, but are able to be overlooked. These are not a higher priority because businesses and individuals can still function without them, even if operations are somewhat inconvenienced.
 
 ### Low Priority - Ineffectual / Cosmetic Issues
-
-
+The lowest priority for Spring Computers should be issues that are somewhat irrelevant to business operations, and pleasantries such as feedback or inquiries. Whilst these can still be important, their priority is lower than other issues because they are not time-sensitive issues, therefore can be deferred and handled later on. This may include issues such as cosmetic wear-and-tear on devices, minor or barely noticeable technical faults, or an individual wanting to complain about a late delivery.
 
 # Prioritisation in Practice
 
