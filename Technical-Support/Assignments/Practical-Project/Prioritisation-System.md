@@ -5,12 +5,12 @@ For example, a business having a technical fault that entirely halts production 
 
 For the specific case of Spring Computers, I would advise using a system akin to that shown below;
 
-## Call Priorities
+# Call Priorities
 
 ### Highest Priority - Critical / Emergency Issues
 ### Second Priority - Important Issues / Longterm Degradation
 ### Third Priority - Non-Critical Issues / Technical Support
 ### Low Priority - Ineffectual / Cosmetic Issues
 
-## Prioritisation in Practice
+# Prioritisation in Practice
 
