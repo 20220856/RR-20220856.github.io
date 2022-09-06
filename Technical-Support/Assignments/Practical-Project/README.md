@@ -6,4 +6,4 @@
 
 [List of Components](./Components-List.xlsx/) - The comprehensive list of components and justifications for the Auckland site (Please be sure to click "View Raw")
 
-[Call Prioritisation System](./Prioritisation-System.md/) - The call prioritisation system for Spring Computers
+[Call Prioritisation System & Communication Channel](./Prioritisation-System.md/) - The call prioritisation system and communication channel for Spring Computers
