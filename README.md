@@ -24,7 +24,7 @@ My current notes, having been taken in classes regarding Software Development. A
 ---
 
 ## Technical Support
-Assignments -- [Practical Project](./Technical-Support/Assignments/Practical-Project/) and [Oral Presentation](./Technical-Support/Assignments/Oral-Presentation.md/)<br>
+Assignments -- [Practical Project](./Technical-Support/Assignments/Practical-Project/) and [Oral Presentation](./Technical-Support/Assignments/Oral-Presentation/)<br>
 These are my two Technical Support Projects.
 
 [Notes](./Technical-Support/Notes/)<br>
