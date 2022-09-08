@@ -16,7 +16,7 @@ pygame.display.set_caption("Knight's Tour Puzzle") ## This sets the name of the 
 CHESSBLACK = (20,20,20)
 CHESSWHITE = (255,255,255)
 EDEL_PINK=(255,200,200)
-BOARD_BG = (155,103,60)
+BOARD_BG = (98,47,34)
 SQUAREWIDTH, SQUAREHEIGHT = 100,100
 
 def create_board():
