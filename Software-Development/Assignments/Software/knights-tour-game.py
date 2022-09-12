@@ -4,22 +4,27 @@ from venv import create
 import pygame
 import os
 
-#boardwidth=int(input("How many squares wide?"))
-boardwidth=16
-boardheight=8
-## WINDOW ##
-
-SCR_WIDTH, SCR_HEIGHT = 1920,1080 ## Screen Dimensions - 1920x1080 for fullscreen on (most) PCs
-WIN = pygame.display.set_mode((SCR_WIDTH,SCR_HEIGHT)) ## This sets Pygame's display mode to a window with the dimensions specified above
-pygame.display.set_caption("Knight's Tour Puzzle") ## This sets the name of the window produced
+SCR_WIDTH, SCR_HEIGHT = 1920,1080
+# Screen Dimensions - 1920x1080 for fullscreen on (most) PCs
+WIN = pygame.display.set_mode((SCR_WIDTH,SCR_HEIGHT))
+# This sets Pygame's display mode to a window with the dimensions specified above
+pygame.display.set_caption("Knight's Tour Puzzle")
+# This sets the name of the window produced
 
 CHESSBLACK = (20,20,20)
 CHESSWHITE = (255,255,255)
 EDEL_PINK=(255,200,200)
 BOARD_BG = (98,47,34)
-SQUAREWIDTH, SQUAREHEIGHT = 100,100
+# The colour of the board backdrop (dark brown)
 
 def create_board():
+    # Create the function "create_board"
+    SQUAREWIDTH, SQUAREHEIGHT = 100,100
+    # The width and height of a chess square on the chessboard
+    boardwidth=16
+    # Variable for the total width of the generated chess board
+    boardheight=8
+    # Variable for the total height of the generated chess board
     squares_across = 0
     squares_down = 0
     whitestart = 2.5
