@@ -1,6 +1,3 @@
-
-from turtle import width
-from venv import create
 import pygame
 import os
 
