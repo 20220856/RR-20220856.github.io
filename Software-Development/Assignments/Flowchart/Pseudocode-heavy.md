@@ -1,1 +1,32 @@
+# Detailed Pseudocode for Knight's Tour problem
 
+---
+
+import os
+import pygame
+
+create window, set dimensions, and set window name using Pygame
+
+create function "create_board":
+  set first white square generation position
+  set first black square generation position
+  
+  set loop counter to 0
+  
+  set square width and height (100)
+  set board width (in squares)
+  set board height (in squares)
+  
+  set squares-across counter to 0 (new board)
+  set squares-down counter to 0 (new board)
+  
+  for i in range (board height):                                                    ### defined by user above
+    while the squares-across counter is less than half of the board width:          ### this is so that HALF of the width is take up by either black or white
+      draw a white square at first white square generation position * 2             ### to ensure that squares are spread across screen correctly
+      draw a black square at first black square generation position * 2             ### specifically positioned as to be in between white squares
+      add 1 to squares-across
+      add the width of a chess square + two pixels to the white starting position   ### to prepare the spacing for the next square generation
+      add the width of a chess square + two pixels to the black starting position
+    
+    increase 
+      
