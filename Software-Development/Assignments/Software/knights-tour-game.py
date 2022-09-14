@@ -4,7 +4,7 @@ import os
 
 SCR_WIDTH, SCR_HEIGHT = 1920,1080
 # Screen Dimensions - 1920x1080 for fullscreen on (most) PCs
-WIN = pygame.display.set_mode((SCR_WIDTH,SCR_HEIGHT))
+WIN = pygame.display.set_mode((0,0),pygame.FULLSCREEN)
 # This sets Pygame's display mode to a window with the dimensions specified above
 pygame.display.set_caption("Knight's Tour Puzzle")
 # This sets the name of the window produced
