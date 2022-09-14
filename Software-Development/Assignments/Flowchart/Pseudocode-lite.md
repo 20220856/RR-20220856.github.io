@@ -23,3 +23,6 @@ The user must be able to click on ANY square, to create a Knight chess piece on 
 
 Additionally, this means some kind of algorithm must be produced, to determine suitable "paths" for the knight to take. This will need to utilise the coordinates of generated squares, allowed movements of a knight-type chess piece, and the coordinates that have been visited by the knight before. A predictive model will need to be formed to ensure that no movement is repeated, and that every square is eventually reached.
 
+The knight piece must move in an animated and visible fashion, and be able to be replicated from any starting square/coordinate.
+
+Finally, there must be reasonable GUI and ability to navigate the program.
