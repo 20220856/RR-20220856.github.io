@@ -19,12 +19,18 @@ create function "create_board":
   
   set squares-across counter to 0 (new board)
   set squares-down counter to 0 (new board)
+  create an empty dictionary that records square coordinates and the order in which they were drawn
   
   for i in range (board height):                                                    ### defined by user above - repeat until "board-height" is reached
+  
     while the squares-across counter is less than half of the board width:          ### this is so that HALF of the width is take up by either black or white
       draw a white square at first white square generation position * 2             ### to ensure that squares are spread across screen correctly
       draw a black square at first black square generation position * 2             ### specifically positioned as to be in between white squares
-      add 1 to squares-across
+      
+      add the square coordinates and draw order to the square dictionary
+      
+      add 1 to squares-across                                                       ### showing that one square has been drawn
+      
       add the width of a chess square + two pixels to the white starting position   ### to prepare the spacing for the next square generation
       add the width of a chess square + two pixels to the black starting position
     
@@ -36,3 +42,12 @@ create function "create_board":
       the black square is drawn first
 
 ### This is the end of the function "create_board". All in all, it draws a chessboard on the window, with size according to user specifications. It is always square or rectangular.
+
+at this point, coordinates and draw order of generated squares should be available in the squares dictionary
+
+invisible buttons are drawn atop the chess squares that - when clicked within the area - inserts and locks the knight sprite to that square
+
+
+
+
+the sprite for the knight piece is imported using pygame, and sized correctly for the scale of the board.
