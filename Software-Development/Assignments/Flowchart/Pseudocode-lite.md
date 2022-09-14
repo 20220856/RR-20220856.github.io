@@ -1,5 +1,7 @@
 # Pseudocode for Knight's Tour Problem
 ---
+## **THIS IS A LITE OVERVIEW. FOR DETAILED PSEUDOCODE, GO [HERE](./Software-Development/Assignments/Flowchart/Pseudocode-heavy.md/)
+---
 
 This is pseudocode for the (apparently overwhelmingly difficult) Knight's Tour problem, to be created from scratch in Pygame. This is supplimentary to the Flowchart included in the same file.
 
