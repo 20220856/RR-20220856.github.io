@@ -18,15 +18,24 @@ def create_board():
     # Create the function "create_board"
     SQUAREWIDTH, SQUAREHEIGHT = 100,100
     # The width and height of a chess square on the chessboard
-    boardwidth=16
+    boardwidth=8
     # Variable for the total width of the generated chess board
     boardheight=8
     # Variable for the total height of the generated chess board
+
+    squarepositions={}
+    for i in range(boardwidth*boardheight):
+        squarepos="square%d"%i
+        squarepositions[squarepos]=i
+
+    
+
     squares_across = 0
     squares_down = 0
     whitestart = 2.5
     blackstart=53.5
     loopcount=0
+    
     for i in range(boardheight):
         while squares_across<boardwidth/2:
             pygame.draw.rect(WIN, CHESSWHITE,(whitestart*2,squares_down+5,SQUAREWIDTH,SQUAREHEIGHT))
@@ -43,8 +52,14 @@ def create_board():
         else:
             whitestart=53.5
             blackstart=2.5
+            
+            
+            
+    tempwidth=10
+    tempheight=10     
+    pygame.draw.rect(WIN,(0,255,0),((((whitestart*2))-(tempwidth/2)),((squares_down)-(tempheight/2)) , tempwidth, tempheight))
 
-        
+
         
         
 def draw_window():
