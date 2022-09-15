@@ -1,7 +1,11 @@
+
+# THIS IS THE MAIN ITERATION OF THE KNIGHT'S TOUR PROJECT - CURRENTLY A WORKING PROTOTYPE OF BOARD GENERATION AND RECORDING
+
 from itertools import count
 from socket import inet_ntoa
 import pygame
 import os
+# This imports necessary dependancies, including Pygame, the main framework for this Project
 
 
 WIN = pygame.display.set_mode((0,0),pygame.FULLSCREEN)
