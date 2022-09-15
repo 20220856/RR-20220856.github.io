@@ -1,1 +1,1 @@
-# Software Project - Prototype for Generating Solution to Knight's Tour Problem
+# Software Project - Prototype for Generating Solution to Knight's Tour
