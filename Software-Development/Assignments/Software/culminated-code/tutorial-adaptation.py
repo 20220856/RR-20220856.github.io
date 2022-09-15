@@ -1,4 +1,7 @@
 
+# THIS IS THE FIRST ATTEMPT I MADE AT WRITING CODE USING THE PYGAME FRAMEWORK
+
+
 from turtle import width
 import pygame
 import os
