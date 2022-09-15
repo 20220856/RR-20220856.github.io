@@ -21,13 +21,41 @@ boardheight=2
 
 squarevalues = {}
 for i in range(boardwidth*boardheight):
-    squarepos="square%d"%i
-    squarevalues[squarepos]=i = [0,0,0]
+    if i%2==0:
+        while squares_across<boardwidth/2:
+            pygame.draw.rect(WIN, CHESSWHITE,(whitestart*2,squares_down+5,SQUAREWIDTH,SQUAREHEIGHT))
+            squarenumber=squarenumber+1
+            squarepos="square%d"%i
+            squarevalues[squarepos]=i=[squarenumber,whitestart*2,squares_down+5]
+        
+    else:
+        while squares_across<boardwidth/2:
+            pygame.draw.rect(WIN, CHESSBLACK,(blackstart*2,squares_down+5,SQUAREWIDTH,SQUAREHEIGHT))
+            squarenumber=squarenumber+1
+            squarepos="square%d"%i
+            squarevalues[squarepos]=i=[squarenumber,blackstart*2,squares_down+5]
+            
+
+        squares_across = squares_across+1
+        whitestart = whitestart + SQUAREWIDTH+2
+        blackstart = blackstart + SQUAREWIDTH+2
+        
+        
+        
+        squares_down=squares_down+102
+        squares_across=0
+        loopcount=loopcount+1
+        if loopcount%2==0:
+            whitestart=2.5
+            blackstart=53.5
+        else:
+            whitestart=53.5
+            blackstart=2.5
 
 squarevalues["square2"]=[2,400,5]
 #squarevalues["square1"]=[0,0,0]
 
-print(squarevalues["square2"])
+print(squarevalues)
 
 
 
