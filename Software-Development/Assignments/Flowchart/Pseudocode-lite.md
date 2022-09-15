@@ -1,10 +1,12 @@
 # Pseudocode for Knight's Tour Problem
 ---
+
 ## THIS IS A LITE OVERVIEW. FOR DETAILED PSEUDOCODE, GO [HERE](Pseudocode-heavy/)
----
 
-This is pseudocode for the (apparently overwhelmingly difficult) Knight's Tour problem, to be created from scratch in Pygame. This is supplimentary to the Flowchart included in the same file.
 
+This is pseudocode for the Knight's Tour problem that I have been working on using the Pygame framework. This is supplimentary to the Flowchart which - all things considered - is my preferred way of planning this sort of project.
+
+For information regarding the project itself;
 The Knight's Tour is a problem in which a "Knight" chess piece can navigate a chessboard in its entirety without touching the same square twice. The knight must be able to start from any square, and finish the tour without repeating a movement. Examples may be a [stillframe](https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Knight%27s_tour.svg/1200px-Knight%27s_tour.svg.png) and an [animation](https://upload.wikimedia.org/wikipedia/commons/d/da/Knight%27s_tour_anim_2.gif) of a Knight's Tour.
 
 ---
