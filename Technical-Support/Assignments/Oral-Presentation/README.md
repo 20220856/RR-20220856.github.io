@@ -1,7 +1,7 @@
 # Oral Presentation - End-user Security Training
 ---
 
-### [Project Brief]()
+### [Project Brief](Brief.md)
 The project brief, rewritten for my own convenience.
 
 ---
