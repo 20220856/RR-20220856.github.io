@@ -21,6 +21,11 @@ The general layout of the finished speech, organised so that points feed into on
 
 ---
 
+### [Powerpoint Accompaniment](cybersecurity-training.pptx)
+The accompanying powerpoint for the presentation to the class.
+
+---
+
 ### [Conclusions and Reflections](conclusions.md)
 My closing thoughts on the state of the presentation, and ways I feel the presentation could have been improved.
 
