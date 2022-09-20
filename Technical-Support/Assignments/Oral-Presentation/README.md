@@ -1,4 +1,4 @@
-# Oral Presentation - End-user Security Training
+# Oral Presentation - Employee Cybersecurity Training
 ---
 
 ### [Project Brief](Brief.md)
@@ -7,7 +7,7 @@ The project brief, rewritten for my own convenience.
 ---
 
 ### [Research / Ideas](Research.md)
-Key ideas regarding End-user security training, interesting sources, and findings.
+Key ideas regarding employee cybersecurity training, interesting sources, and findings.
 
 ---
 
