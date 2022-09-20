@@ -16,7 +16,7 @@ An overview of the general talking points of the presentation - key points of im
 
 ---
 
-### [Powerpoint Accompaniment](cybersecurity-semifinal.pptx)
+### [Powerpoint Accompaniment](cyber-semifinal.pptx)
 The accompanying powerpoint for the presentation to the class.
 
 ---
