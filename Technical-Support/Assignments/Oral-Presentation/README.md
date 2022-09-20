@@ -16,11 +16,6 @@ An overview of the general talking points of the presentation - key points of im
 
 ---
 
-### [General Scripted Layout]()
-The general layout of the finished speech, organised so that points feed into one another. Ideally will establish ideas regarding data hygene early on, building into specifics later in the presentation.
-
----
-
 ### [Powerpoint Accompaniment](cybersecurity-training.pptx)
 The accompanying powerpoint for the presentation to the class.
 
