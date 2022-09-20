@@ -16,7 +16,7 @@ An overview of the general talking points of the presentation - key points of im
 
 ---
 
-### [Powerpoint Accompaniment](cyber-semifinal.pptx)
+### [Powerpoint Accompaniment](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2F20220856%2FRR-20220856.github.io%2Fmain%2FTechnical-Support%2FAssignments%2FOral-Presentation%2Fcyber-semifinal.pptx&wdOrigin=BROWSELINK)
 The accompanying powerpoint for the presentation to the class.
 
 ---
