@@ -6,7 +6,7 @@ The project brief, rewritten for my own convenience.
 
 ---
 
-### [Research / Ideas](Research.md)
+### [Research / Ideas](Research/)
 Key ideas regarding employee cybersecurity training, interesting sources, and findings.
 
 ---
