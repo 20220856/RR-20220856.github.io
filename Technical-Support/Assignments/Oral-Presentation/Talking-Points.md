@@ -28,3 +28,11 @@
 
 - I WOULD recommend the expansion of cybersecurity training for ACME's employees, as it is important to know how to utilise cybersecurity solutions
 - The implimentation of such solutions will benefit both in the short and long-term, as data secutiry will likely immediately improve
+
+# Specific Talking Points
+
+### The Reliance of other forms of Digital Security on correct and thorough employee training
+Emphasis must be placed upon the fact that other forms of digital security are almost entirely useless if they are not implemented correctly and are unknown to members of staff.
+
+### The all-round benefits to a business of having a higher-trained workforce
+Relatively self-explanatory
