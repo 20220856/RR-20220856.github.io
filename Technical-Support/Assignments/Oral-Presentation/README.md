@@ -6,12 +6,12 @@ The project brief, rewritten for my own convenience.
 
 ---
 
-### [Research / Ideas]()
+### [Research / Ideas](Research.md)
 Key ideas regarding End-user security training, interesting sources, and findings.
 
 ---
 
-### [Points for Presentation]()
+### [Points for Presentation](Talking-Points.md)
 An overview of the general talking points of the presentation - key points of importance that hold weight in a speech.
 
 ---
@@ -21,6 +21,6 @@ The general layout of the finished speech, organised so that points feed into on
 
 ---
 
-### [Conclusions and Reflections]()
+### [Conclusions and Reflections](conclusions.md)
 My closing thoughts on the state of the presentation, and ways I feel the presentation could have been improved.
 
