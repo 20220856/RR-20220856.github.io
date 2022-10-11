@@ -20,6 +20,8 @@ Includes [Software Project](./Software-Development/Assignments/Software/) and [F
 ## [Technical Support](./Technical-Support/)
 Includes [Case Study](./Technical-Support/Assignments/Practical-Project/) and [Oral Presentation](./Technical-Support/Assignments/Oral-Presentation/)<br>
 
-## Research and Python Koans
-[Reflective Journal](./Software-Development/Reflective-Journal.md/), [Python Koans Completion](https://github.com/20220856/python_koans) and [Python Kones Notes](./Software-Development/Notes/python-kones.md) were also things accomplished this quarter<br>
+## Additional Accomplishments
+[Reflective Journal](./Software-Development/Reflective-Journal.md/)<br>
+[Python Koans Completion](https://github.com/20220856/python_koans)<br>
+[Python Kones Notes](./Software-Development/Notes/python-kones.md)
 
