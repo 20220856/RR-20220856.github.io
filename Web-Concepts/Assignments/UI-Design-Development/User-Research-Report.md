@@ -10,4 +10,7 @@ This report contains information relevant to the creation of successful prototyp
 
 ## Report
 In order for the upcoming TravelNZ website to successfully fulfill its purpose, it must be in touch with users' wants and needs whilst simultaneously providing information relevant to international travellers.
-Initial presentation is likely to be the most relevant factor for maintaining the interest of interational site visitors, as the majority of visitors form opinions regarding the quality of a website [within less than 20 seconds](https://www.originalbox.co/blog/average-time-spent-websites#:~:text=Did%20you%20know%20that%20on,stay%20or%20leave%20your%20website?)
+
+Initial presentation is likely to be the most relevant factor for maintaining the interest of interational site visitors, as the majority of visitors form opinions regarding the quality of a website [within less than 20 seconds](https://www.originalbox.co/blog/average-time-spent-websites#:~:text=Did%20you%20know%20that%20on,stay%20or%20leave%20your%20website?). Therefore, it is of great importance that the website makes a good first impression.
+
+Additionally, the website must be easy to navigate and easily predictable, ensuring that international visitors know what to expect whilst navigating. This is important because [predictability ensures a positive user experience](https://uxmag.com/articles/being-predictable#:~:text=predictability%20extends%20further%20than,and%20affects%20sales%20growth%20positively.)
