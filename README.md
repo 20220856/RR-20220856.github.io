@@ -9,7 +9,7 @@ This is my GitHub Research Repository, serving as a way to showcase my emerging 
 Includes [Case Study Database/Presentation]() and [Case Study Written Report]()
 
 ## [Web Concepts](./Web-Concepts/)
-Includes [UI Design and Development](./Web-Concepts/Assignments/UI-Design-Development) and [Prototype Implimentation]()
+Includes [UI Design and Development](./Web-Concepts/Assignments/UI-Design-Development) and [Prototype Implimentation](./Web-Concepts/Assignments/UI-Design-Development/)
 
 ---
 
