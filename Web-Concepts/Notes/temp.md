@@ -20,3 +20,8 @@ styling html elements.
 CSS (cascading style sheets) are used to style HTML. there are three varieties - inline (within the html element itself) internal (<style> element in an html page) and external (<link> to an external css file)
 <!-- Comments are written in .HTML files like this -->
 /* Comments are written in .CSS files like this /*
+
+## Responsive Design
+Responsive designs are generally functional across different media sizes and devices
+
+  
