@@ -1,0 +1,164 @@
+<!--
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        body{
+        background-color: blue;
+    }
+    @media screen and (min-width:400px)
+    {
+        body{
+        background-color: red;
+        }
+
+    }
+    </style>
+</head>
+<body>
+    <p> This example is for changing background color when screen size is larger than 400px. 
+    </p>
+</body>
+</html> -->
+
+<!-- 
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        body{
+        background-color: red;
+        color:black;
+    }
+    @media screen and (max-width:900px){
+        body{
+            background-color: yellow;
+            color: white;
+        }
+    }
+    @media screen and (max-width:600px){
+        body{
+            background-color: blue;
+            color: white;
+        }
+    }
+    </style>
+</head>
+<body>
+    <p> This example is for changing background colour when having multiple paramaters for screen sizes.
+    </p>
+</body>
+</html>
+-->
+
+<!--
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        body{
+        background-color: red;
+        color:black;
+    }
+    @media screen and (max-width:900px){
+        body{
+            background-color: yellow;
+            color: white;
+        }
+    }
+    @media screen and (max-width:600px){
+        body{
+            background-color: blue;
+            color: white;
+        }
+    }
+    </style>
+</head>
+<body>
+    <p> This example is for changing background colour when having multiple paramaters for screen sizes.
+    </p>
+</body>
+</html>
+-->
+
+<!--
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        @media screen and (max-width:600px){
+            div.hide{
+                display:none;
+            }
+        }
+    </style>
+</head>
+<body>
+<p>This example is used to hide content.</p>
+<div class="hide">Hide me using the media query.</div>
+</body>
+</html>
+-->
+
+<!--
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        @media screen and (min-width:400px){
+            div.test{
+                font-size:80px;
+            }
+        }
+        @media screen and (max-width:400px){
+            div.test{
+                font-size:30px;
+            }
+        }
+    </style>
+</head>
+<body>
+<p>This example is used to change font size based on the viewing screen</p>
+<div class="test">My font size will change.</div>
+</body>
+</html>
+-->
+
+<!--
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        body{
+            background-color: blue;
+        }
+        @media screen and (orientation:landscape){
+            body{
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>This example is used to change something based on screen orientation. (Landscape is when x>y px, Portrait is when y>x px)</p>
+</body>
+</html>
+-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        @media screen and (max-width:800px) and (min-width:500px), (min-width:1000px){
+            div.test{
+                border: 4px solid black;
+                background: rgb(99, 240, 99);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="test">This text is highlighted green when the screen is between 500-800px wide, and also >1000px wide.</div>
+</body>
+</html>
