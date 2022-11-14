@@ -106,6 +106,7 @@
 </html>
 -->
 
+<!--
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -134,5 +135,102 @@
     <div class="flexbox-item">3</div>
     <div class="flexbox-item">4</div>
     <div class="flexbox-item">5</div>
+    </div>
+</body>
+-->
+
+<!--
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        .flexbox-container{
+            display:flex;
+            border:2px black;
+            background-color: yellow;
+        }
+        .flexbox-item{
+            background-color: grey;
+            width:80px;
+            margin:20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>An Example of a Flexbox with managed items</h3>
+    <div class="flexbox-container">
+    <div class="flexbox-item" style="flex-grow:1">1</div>
+    <div class="flexbox-item" style="flex-grow:2">2</div>
+    <div class="flexbox-item" style="flex-grow:6">3</div>
+    <div class="flexbox-item" style="flex-grow:1">4</div>
+    <div class="flexbox-item" style="flex-grow:1">5</div>
+    </div>
+</body>
+-->
+
+<!--
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        .flexbox-container{
+            display:flex;
+            border:2px black;
+            background-color: yellow;
+        }
+        .flexbox-item{
+            background-color: grey;
+            width:50px;
+            margin:20px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>An Example of a Flexbox with flex-basis highlighted for items</h3>
+    <div class="flexbox-container">
+    <div class="flexbox-item" style="flex-basis:400px">1</div>
+    <div class="flexbox-item">2</div>
+    <div class="flexbox-item">3</div>
+    <div class="flexbox-item">4</div>
+    <div class="flexbox-item">5</div>
+    </div>
+</body>
+-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        .flexbox-container{
+            display:flex;
+            border:2px black;
+            background-color: yellow;
+            justify-content: center;
+        }
+        .flexbox-item{
+            background-color: grey;
+            width:50px;
+            margin:20px;
+            font-size: 30px;
+            text-align: center;
+        }
+        @media screen and (max-width:600px){
+            .flexbox-container{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h3>An Example of a Flexbox with media queries applied</h3>
+    <div class="flexbox-container">
+    <div class="flexbox-item">1</div>
+    <div class="flexbox-item">2</div>
+    <div class="flexbox-item">3</div>
+    <div class="flexbox-item">4</div>
     </div>
 </body>
