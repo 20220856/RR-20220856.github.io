@@ -28,15 +28,87 @@
 </html>
 -->
 
+<!--
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body onload="example()">
+    <h2>This is a for load event</h2>
+    <script>
+        function example(){
+            alert("I am here")
+        }
+    </script>
+</body>
+</html>
+-->
+
+<!--
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script src="script.js"></script>
+</head>
+<body onload="example()">
+    <h2>This is a for load event using external JS</h2>
+</body>
+</html>
+-->
+
+<!--
 <!DOCTYPE HTML>
 <html>
 <head>
 </head>
 <body>
-    <h2>This is an example of an on-click event</h2>
-    <button type="submit" onclick="document.getElementById('greetings').innerHTML='Welcome'">
-        Press Me
-    </button>
-    <p id="greetings"></p>
+    <h2>CSS styling using JS</h2>
+    <p id="color">I can change my color</p>
+    <p id="font">I can change my font size</p>
+    <p id="hide">I can hide my text</p>
+    <button type="submit" onclick="document.getElementById('color').style.color='red'">Color</button>
+    <button type="submit" onclick="document.getElementById('font').style.fontSize='50px'">Font</button>
+    <button type="submit" onclick="document.getElementById('hide').style.display='none'">Hide</button>
+</body>
+</html>
+-->
+
+<!--
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+    <h2>Variable Example in Javascript</h2>
+    <p id="example"></p>
+    <script>
+    var a=5;
+    var b=3;
+    var c=a+b;
+    document.getElementById("example").innerHTML=c;
+    </script>
+</body>
+</html>
+-->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+    <h2>Variable and Conditional Statements in JS</h2>
+    <p id="example"></p>
+    <script>
+        var age=10;
+        if(age<18){
+            document.getElementById("example").innerHTML="Enrol in class A"
+        }
+        else if(age<30){
+            document.getElementById("example").innerHTML="Enrol in class B"
+        }
+        else{
+            document.getElementById("example").innerHTML="Enrol in class C"
+        }
+    </script>
 </body>
 </html>
