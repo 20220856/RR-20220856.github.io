@@ -10,6 +10,13 @@ Eye Candy Cinemas is a New Zealand entertainment company, specialised in the scr
 The purpose of this report is to suggest appropriate information systems and database models that provide a basis for the website application of Eye Candy Cinemas. The specific metrics within the database will include cinema complex information, information regarding theatres within complexes, and movie screening information/scheduling. Additionally, Eye Candy Cinemas has specifically requested an additional function, totalling the number of movies screened per day and week - this feature is intended to allow analysis of total theatre uptime, therefore gauging of operational efficiency.
 
 ## Information Gathering for Eye Candy Cinemas 
+For the purpose of providing an overhauled user experience within the new website application, information will need to be gathered in regards to how the system currently utilised by Eye Candy Cinemas functions. Then, using this gathered information, the old ddesign can be reiterated upon, or overhauled entirely to ensure a positive and easy user experience.
+
+For this purpose, **Document Analysis** is likely to be the most pivotal source of information - however, it shall be performed alongside the distribution of **Questionaires**.
+
+### Document Analysis for Eye Candy Cinemas
+
+
 
 
 - brief overview of company
