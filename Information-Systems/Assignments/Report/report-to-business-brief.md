@@ -27,6 +27,23 @@ Alongside the Document Analysis of Eye Candy Cinemas, several team members at bo
 
 All in all, the Questionnaire paints a concerning picture; considering that a large proportion of theatre-goers had an overall negative experience with the website, it stands to reason that a sizeable portion of customers were entirely lost as a result of the poor website design, and did not choose to come into the theatre to parooze the more modern interior.
 
+## System Development Life Cycle for Updated Eye Candy Cinema Systems
+In accordance from the brief from Eye Candy Cinemas, 
+
+### Project Initiation/Planning
+
+### Analysis of Project Requirements
+
+### Project Design 
+
+### Project Development 
+
+### Project Testing and Systems Integration
+
+### Implimentation of Project
+
+### Maintainence and Future Operation of Project
+
 
 
 
