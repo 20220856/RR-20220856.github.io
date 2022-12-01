@@ -12,16 +12,22 @@ The purpose of this report is to suggest appropriate information systems and dat
 ## Information Gathering for Eye Candy Cinemas 
 For the purpose of providing an overhauled user experience within the new website application, information has been gathered in regards to how the system currently utilised by Eye Candy Cinemas functions. Then, using this gathered information, the old design can be reiterated upon, or overhauled entirely to ensure a positive and successful user experience.
 
-For this purpose, **Document Analysis** was likely to be the most pivotal source of information - however, it was also performed alongside the distribution of **Questionaires**.
+For this purpose, **Document Analysis** was likely to be the most pivotal source of information - however, it was also performed alongside the distribution of **Questionnaires**.
 
 ### Document Analysis
 Document Analysis is the process of reviewing existing documentation of the original constituent parts of Eye Candy Cinemas. This process involved collection of data regarding existing systems, the rules surrounding them, key functionalities and compatabilities, as well as records of past screenings, customer manifests, online website analytics, and historical documentation of the management of the Auckland and Wellington cinema complexes.
 
 Additionally, information regarding the competitors of Eye Candy Cinemas, including website layout/functionality, frequency of screenings, and the degree to which seats in theatres were booked by customers was collected, to allow the measurement of Eye Candy Cinemas' success against that of its competitors.
 
-Unfortunately, the findings of the document analysis were that - when compared to competitors - the inaccessability and difficulty-of-use of Eye Candy Cinemas' website disincentivised a sizeable proportion of prospective customers from completing a booking. Additionally, the median number of bookings per theatre *(adjusted for available seats)* was on average lower than that of competitors - likely as a result of the reduced accessability. Finally, inefficiencies in operation on a theatrewide scale ensured that several hours could pass between screenings in the same theatre, when competitors provided back-to-back screenings, furthering the number of total screenings per day. In short, the overall operational efficiency of Eye Candy cinemas was found to be severely lacking following an analysis of documents.
+Unfortunately, the findings of the document analysis were that - when compared to competitors - the inaccessability and difficulty-of-use of Eye Candy Cinemas' website disincentivised a sizeable proportion of prospective customers from completing a booking. Additionally, the median number of bookings per theatre *(adjusted for available seats)* was on average lower than that of competitors - likely as a result of the reduced accessability. Finally, inefficiencies in operation on a theatrewide scale ensured that several hours could pass between screenings in the same theatre, when competitors provided back-to-back screenings, furthering the number of total screenings per day. In short, the overall operational efficiency of Eye Candy cinemas was found to be severely lacking compared to that of its competitors following an analysis of documents.
 
-### Document Analysis for Eye Candy Cinemas
+### Questionnaire Provision
+
+Alongside the Document Analysis of Eye Candy Cinemas, several team members at both sites were delegated to provide questionnaires to patrons of Eye Candy Cinemas. These questionnaires were filled over the course of a month at both sites, and of the 472 total responses, the results were clear; the findings of the Document Analysis was both correct, and more severe than initially thought - of the 472 respondees, almost two thirds of them *(287 respondees)* claimed to have had a negative experience with the website, citing its difficulty of use, the archaic booking system, and the overall lack of information regarding screenings. This issue is compounded through peak periods of activity, as the website has been said to experience slowdown and stutters during periods of heavy use. Combining this information with the website analytics reviewed during the Document analysis did in fact reveal that the website had even gone down for periods of up to ten minutes during periods of high activity.
+
+All in all, the Questionnaire paints a concerning picture; considering that a large proportion of theatre-goers had an overall negative experience with the website, it stands to reason that a sizeable portion of customers were entirely lost as a result of the poor website design, and did not choose to come into the theatre to parooze the more modern interior.
+
+
 
 
 
