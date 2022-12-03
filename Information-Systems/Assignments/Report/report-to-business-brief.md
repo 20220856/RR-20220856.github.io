@@ -28,11 +28,13 @@ Alongside the Document Analysis of Eye Candy Cinemas, several team members at bo
 All in all, the Questionnaire paints a concerning picture; considering that a large proportion of theatre-goers had an overall negative experience with the website, it stands to reason that a sizeable portion of customers were entirely lost as a result of the poor website design, and did not choose to come into the theatre to parooze the more modern interior.
 
 ## System Development Life Cycle for Updated Eye Candy Cinema Systems
-In accordance from the brief from Eye Candy Cinemas, 
+In accordance to the brief from Eye Candy Cinemas, it was prudent to plan the System Development Life Cycle (henceforth SDLS) in detail. The successful SDLS provides a basis for the creation of the new system required for Eye Candy Cinemas, and allows summarization of necessary features in an easy-to-understand manner, crucial for future documentation purposes.
 
 ### Project Initiation/Planning
+It is important to identify exactly what is possible for the future system, and collect ideas that could be utilised to iterate upon the currently implimented one. What is Eye Candy Cinemas' intended outcome for the new system - are the required results feasable? How do we get from the current system to where we need to be? Can we make sweeping changes all at once, or do things need to be slowly overhauled? Are there any other potential solutions to issues affecting the cinema complexes? These are issues that will have to be considered during the Project Initiation Phase.
 
 ### Analysis of Project Requirements
+During this phase, the actual requirements of the project need to be identified. The new system needs to be a substantial upgrade from the old in order to improve 
 
 ### Project Design 
 
