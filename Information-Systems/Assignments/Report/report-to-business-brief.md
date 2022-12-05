@@ -1,9 +1,5 @@
 # IT5015 Information Systems - Report to Business Brief for **Eye Candy Cinemas** - 20220856
 
-brief https://github.com/20220856/RR-20220856.github.io/files/10094932/IT5015.Assessment.Report.to.Business.Brief-1.docx
-
-case study https://github.com/20220856/RR-20220856.github.io/files/10094929/IT.5015.Information.Systems_Eye.Candy.Cinemas.Case.Study.docx
-
 ## Overview of Eye Candy Cinemas
 Eye Candy Cinemas is a New Zealand entertainment company, specialised in the screening of films in theatres owned by the company. There are two cinema complexes in the repertoire of Eye Candy Cinemas - one in Auckland, and one in Wellington. The Auckland complex contains a total of six theatres, and the Wellington complex has four. Eye Candy Cinemas wishes to improve their operational efficiency through the use of a new website application, and requires overhauled information systems in order to achieve this aspiration.
 
@@ -125,9 +121,8 @@ This entity category represents the sound system to be used within a theatre. Th
 
 ## Final Entity Relationship Diagram
 
+![20220856-ERD-2022-12-06_03-22](https://user-images.githubusercontent.com/110361869/205660295-12cd7497-8352-4460-8463-f954e49cdc26.png)
 
+---
 
-- design data model for the business
-- list entites to be included in ERD, and make it, describing the relationships of each entity
-- identify cardinality of each relationship
-- produce the ERD using a CASE tool
+### This concludes the Report to Business Brief for Eye Candy Cinemas.
