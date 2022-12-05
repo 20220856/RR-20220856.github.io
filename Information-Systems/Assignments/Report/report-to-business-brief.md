@@ -5,9 +5,9 @@ brief https://github.com/20220856/RR-20220856.github.io/files/10094932/IT5015.As
 case study https://github.com/20220856/RR-20220856.github.io/files/10094929/IT.5015.Information.Systems_Eye.Candy.Cinemas.Case.Study.docx
 
 ## Overview of Eye Candy Cinemas
-Eye Candy Cinemas is a New Zealand entertainment company, specialised in the screening of movies in theatres owned by the company. There are two cinema complexes in the repertoire of Eye Candy Cinemas - one in Auckland, and one in Wellington. The Auckland complex contains a total of six theatres, and the Wellington complex has four. Eye Candy Cinemas wishes to improve their operational efficiency through the use of a new website application, and requires overhauled information systems in order to achieve this aspiration.
+Eye Candy Cinemas is a New Zealand entertainment company, specialised in the screening of films in theatres owned by the company. There are two cinema complexes in the repertoire of Eye Candy Cinemas - one in Auckland, and one in Wellington. The Auckland complex contains a total of six theatres, and the Wellington complex has four. Eye Candy Cinemas wishes to improve their operational efficiency through the use of a new website application, and requires overhauled information systems in order to achieve this aspiration.
 
-The purpose of this report is to suggest appropriate information systems and database models that provide a basis for the website application of Eye Candy Cinemas. The specific metrics within the database will include cinema complex information, information regarding theatres within complexes, and movie screening information/scheduling. Additionally, Eye Candy Cinemas has specifically requested an additional function, totalling the number of movies screened per day and week - this feature is intended to allow analysis of total theatre uptime, therefore gauging of operational efficiency.
+The purpose of this report is to suggest appropriate information systems and database models that provide a basis for the website application of Eye Candy Cinemas. The specific metrics within the database will include cinema complex information, information regarding theatres within complexes, and film screening information/scheduling. Additionally, Eye Candy Cinemas has specifically requested an additional function, totalling the number of films screened per day and week - this feature is intended to allow analysis of total theatre uptime, therefore gauging of operational efficiency.
 
 ---
 
@@ -70,8 +70,22 @@ The Maintainence phase mostly consists of post-release operative procedures for 
 8.  As soon as screening information is made available, booking may commence.
 9.  Bookings and Tickets can be cancelled at no additional cost until the date of the screening.
 
-First-Cut Entity Relation Diagram *(ERD)* Entities
+## First-Cut Entity Relation Diagram *(ERD)* Entities
 
+### Cinema
+This entity represents the complex at which the film is being screened. This may be either Auckland or Wellington. There are no other entries, although there is potential for more entries within this category in the future should Eye Candy Cinemas wish to purchase another cinema complex. Each Cinema is correspondant to multiple theatres.
+
+### Theatre
+This entity represents an individual theatre within a cinema. At the Auckland Complex, this value may number from 1-6, whilst at Wellington, it may be 1-4. It is representative of the available theatres for screening at each cinema complex. These values are not liable to change, although if another cinema is purchased in the future, it will also have a correspondant theatre entry. Each theatre can only be within one Cinema, and only have one Screening at a time.
+
+### Screening
+This entity represents screening times for films within theatres. Each screening may be in only one theatre at once, and consist of only one film. Screenings also cannot intersect within the time of another screening *(ie. if 'Screening 1' runs for two hours, 'Screening 2' cannot begin until it has finished)*.
+
+### Film
+This entity represents a film that is to be played within a theatre at a given time. One film may be played in multiple theatres at one time, but - as mentioned in the Screening entity - a theatre cannot play multiple films at one time.
+
+### Sound System
+This entity represents the sound system to be used within a theatre. This value does not change between screenings, as it is built into the theatre complex. Each theatre may only have one sound system, and this sound system will always be utilised by screenings to play the sound of films being displayed.
 
 
 - design data model for the business
