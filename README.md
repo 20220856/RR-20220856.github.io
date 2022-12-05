@@ -11,7 +11,8 @@ If you stumble upon this by chance, feel free to have a look around. If not, my 
 ### [Main](./Information-Systems/)
 ### [Report to Business Brief](./Information-Systems/Assignments/Report/report-to-business-brief.md)<br>
 This is my Report to Business Brief for the Case Study "Eye Candy Cinemas" - it was certainly one of the experiences I have ever had.<br>
-### [Application of Information Systems to Business Brief]()
+### [Application of Information Systems to Business Brief]()<br>
+This does not remotely exist yet.
 
 ---
 
