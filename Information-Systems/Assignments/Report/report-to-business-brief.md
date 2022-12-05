@@ -98,6 +98,26 @@ This entity category represents the sound system to be used within a theatre. Th
 ||Cinema-City|The City of the Cinema||
 ||Cinema-Email|The Email address of the Cinema||
 ||Cinema-Phone|The Phone Number of the Cinema||
+|Theatre|Theatre-ID|The Primary Key of the Theatre Entity|Screening *(One-to-Many)*|
+||Theatre-Seats|The capacity of all seats within the Theatre||
+||Cinema-ID|The Cinema ID, denoting which cinema the theatre is located|Foreign Key|
+||Sound-ID|The Sound System ID, denoting which system the theatre uses|Foreign Key|
+|Screening|Screening-ID|The Primary Key of the Screening Entity||
+||Theatre-ID|The Theatre ID, denoting the theatre for the screening|Foreign Key|
+||Film-ID|The Film ID, denoting the film for the screening|Foreign Key|
+||Screening-Time|The time of the screening||
+||Screening-Date|The date of the screening||
+||Screening-Price|The Price for a ticket to the screening||
+|Film|Film-ID|The Primary Key for the Film Entity|Screening *(One-to-Many)*|
+||Film-Title|The Title of the film||
+||Film-Director|The Director of the Film||
+||Film-Duration|The complete runtime of the Film||
+||Film-Year|The Year the film was released||
+||Film-Classification|The Classification of the film||
+||Film-IMDB|A link to the IMDB Rating/Review of the Film||
+|Sound System|Sound-ID|The Primary Key for the Sound System Entity|Theatre *(One-to-Many)*|
+||Sound-Name|The Model Name of the Sound System||
+||Sound-Manufacturer|The Manufacturer of the Sound System||
 
 
 
