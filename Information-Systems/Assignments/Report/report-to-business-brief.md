@@ -57,6 +57,21 @@ The Maintainence phase mostly consists of post-release operative procedures for 
 
 ---
 
+## Data Modelling - Conceptual Design for Eye Candy Cinemas
+
+### Business Rules for operation of Cinemas
+1.  Customers must have a ticket to enter a theatre.
+2.  Each ticket must be fully paid for before it is valid for entry.
+3.  Each ticket is valid for ONE use only.
+4.  There is no limit to the number of tickets a customer may purchase, although only one may be redeemed at a time *(per person)*.
+5.  Each ticket is correspondant to a theatre, seat, and screening time. These cannot be changed.
+6.  Tickets cannot be allocated to the same seat twice - each must be a unique seat for the duration of the screening.
+7.  Screening information for films must be made available AT LEAST one week in advance.
+8.  As soon as screening information is made available, booking may commence.
+9.  Bookings and Tickets can be cancelled at no additional cost until the date of the screening.
+
+First-Cut Entity Relation Diagram *(ERD)* Entities
+
 
 
 - design data model for the business
