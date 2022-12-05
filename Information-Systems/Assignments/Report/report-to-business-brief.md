@@ -9,6 +9,8 @@ Eye Candy Cinemas is a New Zealand entertainment company, specialised in the scr
 
 The purpose of this report is to suggest appropriate information systems and database models that provide a basis for the website application of Eye Candy Cinemas. The specific metrics within the database will include cinema complex information, information regarding theatres within complexes, and movie screening information/scheduling. Additionally, Eye Candy Cinemas has specifically requested an additional function, totalling the number of movies screened per day and week - this feature is intended to allow analysis of total theatre uptime, therefore gauging of operational efficiency.
 
+---
+
 ## Information Gathering for Eye Candy Cinemas 
 For the purpose of providing an overhauled user experience within the new website application, information has been gathered in regards to how the system currently utilised by Eye Candy Cinemas functions. Then, using this gathered information, the old design can be reiterated upon, or overhauled entirely to ensure a positive and successful user experience.
 
@@ -27,6 +29,8 @@ Alongside the Document Analysis of Eye Candy Cinemas, several team members at bo
 
 All in all, the Questionnaire paints a concerning picture; considering that a large proportion of theatre-goers had an overall negative experience with the website, it stands to reason that a sizeable portion of customers were entirely lost as a result of the poor website design, and did not choose to come into the theatre to parooze the more modern interior.
 
+---
+
 ## System Development Life Cycle for Updated Eye Candy Cinema Systems
 In accordance to the brief from Eye Candy Cinemas, it was prudent to plan the System Development Life Cycle (henceforth SDLS) in detail. The successful SDLS provides a basis for the creation of the new system required for Eye Candy Cinemas, and allows summarization of necessary features in an easy-to-understand manner, crucial for future documentation purposes.
 
@@ -34,15 +38,19 @@ In accordance to the brief from Eye Candy Cinemas, it was prudent to plan the Sy
 It is important to identify exactly what is possible for the future system, and collect ideas that could be utilised to iterate upon the currently implimented one. What is Eye Candy Cinemas' intended outcome for the new system - are the required results feasable? How do we get from the current system to where we need to be? Can we make sweeping changes all at once, or do things need to be slowly overhauled? Are there any other potential solutions to issues affecting the cinema complexes? These are issues that will have to be considered during the Project Initiation Phase.
 
 ### Analysis of Project Requirements
-During this phase, the actual requirements of the project need to be identified. The new system needs to be a substantial upgrade from the old in order to improve 
+During this phase, the actual requirements of the project need to be identified. The new system needs to be a substantial upgrade from the old in order to improve the user experience to a level that makes the website worthwhile for Eye Candy Cinemas. Both the hardware and software components of the new system need to be identified, alongside the potential costs, limitations, and potential issues that could come with choosing to use certain components/softwares. 
 
 ### Project Design 
+This phase is primarly concerned with the identification and creation of key components and features of the web application system itself. This includes planning of the database structure, consideration of the UI/system elements for operation, general layout of the website application, and establishment of protocols for operation of the system once it is completed. This phase also includes more superficial elements, such as the design philosophy of the system and elements that interact with it. Finally, it will include the design and layout of a first prototype for the database structure of the system that is to integrate with the web application.
 
 ### Project Development 
+This phase utilises the planning that occurred in the Project Design stage, and consists of the actual production of the website application, database, and integrations. This phase requires much work, as it is a complete overhaul of the previous, archaic system - therefore may require some time to be completed. Throughout this process, Static Application Security Testing (SAST) tools are utilised to ensure the security of the new application by highlighting vulnerabilities in the system, bringing to light potential issues in code, or revealing otherwise innoculous flaws in the new website application and database system. Developers will then have the ability to fix these security issues, making SAST tools imperative for the data security of Eye Candy Cinemas' patrons.
 
-### Project Testing and Systems Integration
+### Project Testing
+This phase somewhat meshes with Project Development, and involves testing the completed software to ensure that there are no issues - potentially including bugs, exploits, vulerabilities, or issues for end-users. During this phase, the software for the systems will be carefully analysed to ensure that afformentioned issues are not present, and furthermore, SAST and debugging tools will be utilised that all is well from a syntactical standpoint. When issues are found, they must be documented and corrected by a software developer responsible for the creation of the system.
 
-### Implimentation of Project
+### Project Implimentation and Systems Integration
+This phase consists of actually putting the completed system into practice, thereby replacing the old, archaic system with the new and overhauled version. This rollout with likely consist of a "beta" version that will be released to small sample groups to ensure complete functionality before rolling-out to the public at large. During this phase, the different modules *(eg. website application, database, etc.)* must be fully integrated and optimally function together to ensure that the final verion will work correctly and as intended. To summarise - this is the phase that will consist of the release of the finished Website application for Eye Candy Cinemas to the public at large.
 
 ### Maintainence and Future Operation of Project
 
