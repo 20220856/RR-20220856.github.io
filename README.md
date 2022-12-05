@@ -6,7 +6,7 @@ This is my GitHub Research Repository, serving as a way to showcase my emerging 
 
 # Quarter 2:
 ## [Information Systems](./Information-Systems/)
-Includes [Case Study Database/Presentation]() and [Case Study Written Report]()
+Includes [Report to Business Brief](./Information-Systems/Assignments/Report/report-to-business-brief.md) and [Application of Information Systems to Business Brief]()
 
 ## [Web Concepts](./Web-Concepts/)
 Includes [UI Design and Development](./Web-Concepts/Assignments/UI-Design-Development) and [Prototype Implimentation](./Web-Concepts/Assignments/UI-Design-Development/)
