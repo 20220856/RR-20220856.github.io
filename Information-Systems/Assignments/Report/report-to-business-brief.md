@@ -93,33 +93,33 @@ This entity category represents the sound system to be used within a theatre. Th
 
 |Entity Category|Entity|Description|Relationship|
 |:---:|---|---|:---:|
-|Cinema|Cinema-ID|The Primary Key of the Cinema Entity|Theatre *(One-to-Many)*|
-||Cinema-Name|The Name of the Cinema *(AKL or WLG)*||
-||Cinema-Address-1|The first line of Address for the Cinema||
-||Cinema-Address-2|The Suburb of the Cinema||
-||Cinema-City|The City of the Cinema||
-||Cinema-Email|The Email address of the Cinema||
-||Cinema-Phone|The Phone Number of the Cinema||
-|Theatre|Theatre-ID|The Primary Key of the Theatre Entity|Screening *(One-to-Many)*|
-||Theatre-Seats|The capacity of all seats within the Theatre||
-||Cinema-ID|The Cinema ID, denoting which cinema the theatre is located|Foreign Key|
-||Sound-ID|The Sound System ID, denoting which system the theatre uses|Foreign Key|
-|Screening|Screening-ID|The Primary Key of the Screening Entity||
-||Theatre-ID|The Theatre ID, denoting the theatre for the screening|Foreign Key|
-||Film-ID|The Film ID, denoting the film for the screening|Foreign Key|
-||Screening-Time|The time of the screening||
-||Screening-Date|The date of the screening||
-||Screening-Price|The Price for a ticket to the screening||
-|Film|Film-ID|The Primary Key for the Film Entity|Screening *(One-to-Many)*|
-||Film-Title|The Title of the film||
-||Film-Director|The Director of the Film||
-||Film-Duration|The complete runtime of the Film||
-||Film-Year|The Year the film was released||
-||Film-Classification|The Classification of the film||
-||Film-IMDB|A link to the IMDB Rating/Review of the Film||
-|Sound System|Sound-ID|The Primary Key for the Sound System Entity|Theatre *(One-to-Many)*|
-||Sound-Name|The Model Name of the Sound System||
-||Sound-Manufacturer|The Manufacturer of the Sound System||
+|Cinema|Cinema_ID|The Primary Key of the Cinema Entity|Theatre *(One-to-Many)*|
+||Cinema_Name|The Name of the Cinema *(AKL or WLG)*||
+||Cinema_Address_1|The first line of Address for the Cinema||
+||Cinema_Address_2|The Suburb of the Cinema||
+||Cinema_City|The City of the Cinema||
+||Cinema_Email|The Email address of the Cinema||
+||Cinema_Phone|The Phone Number of the Cinema||
+|Theatre|Theatre_ID|The Primary Key of the Theatre Entity|Screening *(One-to-Many)*|
+||Theatre_Seats|The capacity of all seats within the Theatre||
+||Cinema_ID|The Cinema ID, denoting which cinema the theatre is located|Foreign Key|
+||Sound_ID|The Sound System ID, denoting which system the theatre uses|Foreign Key|
+|Screening|Screening_ID|The Primary Key of the Screening Entity||
+||Theatre_ID|The Theatre ID, denoting the theatre for the screening|Foreign Key|
+||Film_ID|The Film ID, denoting the film for the screening|Foreign Key|
+||Screening_Time|The time of the screening||
+||Screening_Date|The date of the screening||
+||Screening_Price|The Price for a ticket to the screening||
+|Film|Film_ID|The Primary Key for the Film Entity|Screening *(One-to-Many)*|
+||Film_Title|The Title of the film||
+||Film_Director|The Director of the Film||
+||Film_Duration|The complete runtime of the Film||
+||Film_Year|The Year the film was released||
+||Film_Classification|The Classification of the film||
+||Film_IMDB|A link to the IMDB Rating/Review of the Film||
+|Sound System|Sound_ID|The Primary Key for the Sound System Entity|Theatre *(One-to-Many)*|
+||Sound_Name|The Model Name of the Sound System||
+||Sound_Manufacturer|The Manufacturer of the Sound System||
 
 ---
 
