@@ -87,10 +87,12 @@ This entity category represents a film that is to be played within a theatre at 
 ### Sound System
 This entity category represents the sound system to be used within a theatre. This value does not change between screenings, as it is built into the theatre complex. Each theatre may only have one sound system, and this sound system will always be utilised by screenings to play the sound of films being displayed.
 
+---
+
 ## Table of Entity Relations
 
 |Entity Category|Entity|Description|Relationship|
-|---|---|---|---|
+|:---:|---|---|:---:|
 |Cinema|Cinema-ID|The Primary Key of the Cinema Entity|Theatre *(One-to-Many)*|
 ||Cinema-Name|The Name of the Cinema *(AKL or WLG)*||
 ||Cinema-Address-1|The first line of Address for the Cinema||
@@ -119,7 +121,9 @@ This entity category represents the sound system to be used within a theatre. Th
 ||Sound-Name|The Model Name of the Sound System||
 ||Sound-Manufacturer|The Manufacturer of the Sound System||
 
+---
 
+## Final Entity Relationship Diagram
 
 
 
