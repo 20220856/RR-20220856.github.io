@@ -73,19 +73,34 @@ The Maintainence phase mostly consists of post-release operative procedures for 
 ## First-Cut Entity Relation Diagram *(ERD)* Entities
 
 ### Cinema
-This entity represents the complex at which the film is being screened. This may be either Auckland or Wellington. There are no other entries, although there is potential for more entries within this category in the future should Eye Candy Cinemas wish to purchase another cinema complex. Each Cinema is correspondant to multiple theatres.
+This entity category represents the complex at which the film is being screened. This may be either Auckland or Wellington. There are no other entries, although there is potential for more entries within this category in the future should Eye Candy Cinemas wish to purchase another cinema complex. Each Cinema is correspondant to multiple theatres.
 
 ### Theatre
-This entity represents an individual theatre within a cinema. At the Auckland Complex, this value may number from 1-6, whilst at Wellington, it may be 1-4. It is representative of the available theatres for screening at each cinema complex. These values are not liable to change, although if another cinema is purchased in the future, it will also have a correspondant theatre entry. Each theatre can only be within one Cinema, and only have one Screening at a time.
+This entity category represents an individual theatre within a cinema. At the Auckland Complex, this value may number from 1-6, whilst at Wellington, it may be 1-4. It is representative of the available theatres for screening at each cinema complex. These values are not liable to change, although if another cinema is purchased in the future, it will also have a correspondant theatre entry. Each theatre can only be within one Cinema, and only have one Screening at a time.
 
 ### Screening
-This entity represents screening times for films within theatres. Each screening may be in only one theatre at once, and consist of only one film. Screenings also cannot intersect within the time of another screening *(ie. if 'Screening 1' runs for two hours, 'Screening 2' cannot begin until it has finished)*.
+This entity category represents screening times for films within theatres. Each screening may be in only one theatre at once, and consist of only one film. Screenings also cannot intersect within the time of another screening *(ie. if 'Screening 1' runs for two hours, 'Screening 2' cannot begin until it has finished)*.
 
 ### Film
-This entity represents a film that is to be played within a theatre at a given time. One film may be played in multiple theatres at one time, but - as mentioned in the Screening entity - a theatre cannot play multiple films at one time.
+This entity category represents a film that is to be played within a theatre at a given time. One film may be played in multiple theatres at one time, but - as mentioned in the Screening entity - a theatre cannot play multiple films at one time.
 
 ### Sound System
-This entity represents the sound system to be used within a theatre. This value does not change between screenings, as it is built into the theatre complex. Each theatre may only have one sound system, and this sound system will always be utilised by screenings to play the sound of films being displayed.
+This entity category represents the sound system to be used within a theatre. This value does not change between screenings, as it is built into the theatre complex. Each theatre may only have one sound system, and this sound system will always be utilised by screenings to play the sound of films being displayed.
+
+## Table of Entity Relations
+
+|Entity Category|Entity|Description|Relationship|
+|---|---|---|---|
+|Cinema|Cinema-ID|The Primary Key of the Cinema Entity|Theatre *(One-to-Many)*|
+||Cinema-Name|The Name of the Cinema *(AKL or WLG)*||
+||Cinema-Address-1|The first line of Address for the Cinema||
+||Cinema-Address-2|The Suburb of the Cinema||
+||Cinema-City|The City of the Cinema||
+||Cinema-Email|The Email address of the Cinema||
+||Cinema-Phone|The Phone Number of the Cinema||
+
+
+
 
 
 - design data model for the business
