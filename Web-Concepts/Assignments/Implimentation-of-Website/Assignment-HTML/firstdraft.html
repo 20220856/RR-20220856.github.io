@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .header{
+            border: 1px solid black;
+            text-align: center;
+        }
+        .footer{
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        [class*="col-"]{
+            float: left;
+            border: 1px solid black;
+            width:33.33%
+        }
+        @media screen and (max-width:799px){
+            body{background-color: red;}
+        }
+
+        @media screen and (min-width:800px){
+        .col-1{width:8.33%}
+        .col-2{width:16.66%}
+        .col-3{width:25%}
+        .col-4{width:33.33%}
+        .col-5{width:41.66%}
+        .col-6{width:50%}
+        .col-7{width:58.33%}
+        .col-8{width:66.66%}
+        .col-9{width:75%}
+        .col-10{width:83.33%}
+        .col-11{width:91.66%}
+        .col-12{width:100%}
+    body{background-color: grey;}
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h3>Designed with Grid Structure</h3>
+    </div>
+    <div class="row">
+
+        <div class="col-3" style="height:150px">
+            <h1>Menu</h1>
+        </div>
+        <div class="col-6" style="height:150px">
+            <h1>Main Section</h1>
+            <p>The Website is being divided into three sections - 25%, 50%, 25%</p>
+        </div>
+        <div class="col-3" style="height:150px">
+            <h1>Recommended Products</h1>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2" style="height:300px">
+            <h3>Product One</h3>
+            <p>Trending Product One</p>
+        </div>
+        <div class="col-2" style="height:300px">
+            <h3>Product Two</h3>
+            <p>Trending Product Two</p>
+        </div>
+        <div class="col-2" style="height:300px">
+            <h3>Product Three</h3>
+            <p>Trending Product Three</p>
+        </div>
+        <div class="col-2" style="height:300px">
+            <h3>Product Four</h3>
+            <p>Trending Product Four</p>
+        </div>
+        <div class="col-2" style="height:300px">
+            <h3>Product Five</h3>
+            <p>Trending Product Five</p>
+        </div>
+        <div class="col-2" style="height:300px">
+            <h3>Product Six</h3>
+            <p>Trending Product Six</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>Design with Grid structure</h3>
+    </div>
+</body>
+
+
+
+</html>
