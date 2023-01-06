@@ -1,49 +1,3 @@
-
-<!--
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>
-        How to utilise Navigation links in HTML
-    </title>
-
-    <style>
-        .title{
-            font-size: 40px;
-            color:black;
-            font-weight: bold;
-            text-align: center;
-        }
-        .navtag{
-            font-size: 35px;
-            color: black;
-            text-align: center;
-            margin: 30px;
-        }
-    </style>
-</head>
-
-<body>
-    <div class="title">
-        Test-Page Title
-    </div>
-
-    <div class="navtag">
-        utilising nagivation tags in HTML
-    </div>
-    <nav>
-        <a href="C:/Users/GGPC/Documents/Github/RR-20220856.github.io/Web-Concepts/Assignments/Implimentation-of-Website/Assignment-HTML/firstdraft.html">HTML</a>
-        <a href="https://www.wikipedia.com">Wikipedia Link</a>
-    </nav>
-
-
-
-
-</body>
-</html>
--->
-
 <!DOCTYPE html>
 <html>
 
@@ -52,26 +6,37 @@
         *{
             box-sizing: border-box;
         }
+
         .header{
             border: 1px solid black;
-            text-align: left;
-            padding-left: 50px;
-        }
-        .footer{
-            border: 1px solid black;
+            display: inline-block;
+            width:100%;
             text-align: center;
+            background-color:rgb(225, 250, 252);
         }
 
         
         @media screen and (max-width:600px){
             body{background-color: red;}
             [class*="col-"]{
+                border: 1px solid black;
+                text-align: center;
+                padding-top: 20px;
+                height: 75px;
                 float: left;
-                width:33.33%
+                width:100%
             }
         }
 
         @media screen and (min-width:600px){
+        header{
+        text-align: left;
+            padding-left: 25px;
+        }
+        [class*="col-"]{
+            border: 1px solid black;
+            float: left;
+        }
         .col-1a{width:8.33%}
         .col-2a{width:16.66%}
         .col-3a{width:25%}
@@ -85,9 +50,14 @@
         .col-11a{width:91.66%}
         .col-12a{width:100%}
     body{background-color: greenyellow;}
+    
     }
 
         @media screen and (min-width:1025px){
+        [class*="col-"]{
+            border: 1px solid black;
+            float: left;
+        }
         .col-1{width:8.33%}
         .col-2{width:16.66%}
         .col-3{width:25%}
@@ -104,55 +74,54 @@
     }
     </style>
 </head>
+
+
 <body>
+
     <div class="header">
-        <h3>TravelNZ</h3>
+        <a href="/"
     </div>
+
     <div class="row">
 
-        <div class="col-3" style="height:150px">
+        <div class="col-3 col-3a" style="height:150px">
             <h1>Menu</h1>
         </div>
-        <div class="col-6" style="height:150px">
+        <div class="col-6 col-6a" style="height:150px">
             <h1>Main Section</h1>
             <p>The Website is being divided into three sections - 25%, 50%, 25%</p>
         </div>
-        <div class="col-3" style="height:150px">
+        <div class="col-3 col-3a" style="height:150px">
             <h1>Recommended Products</h1>
 
         </div>
     </div>
     <div class="row">
-        <div class="col-2" style="height:300px">
+        <div class="col-2 col-2a" style="height:300px">
             <h3>Product One</h3>
             <p>Trending Product One</p>
         </div>
-        <div class="col-2" style="height:300px">
+        <div class="col-2 col-2a" style="height:300px">
             <h3>Product Two</h3>
             <p>Trending Product Two</p>
         </div>
-        <div class="col-2" style="height:300px">
+        <div class="col-2 col-2a" style="height:300px">
             <h3>Product Three</h3>
             <p>Trending Product Three</p>
         </div>
-        <div class="col-2" style="height:300px">
+        <div class="col-2 col-2a" style="height:300px">
             <h3>Product Four</h3>
             <p>Trending Product Four</p>
         </div>
-        <div class="col-2" style="height:300px">
+        <div class="col-2 col-2a" style="height:300px">
             <h3>Product Five</h3>
             <p>Trending Product Five</p>
         </div>
-        <div class="col-2" style="height:300px">
+        <div class="col-2 col-2a" style="height:300px">
             <h3>Product Six</h3>
             <p>Trending Product Six</p>
         </div>
     </div>
-    <div class="footer">
-        <h3>Design with Grid structure</h3>
-    </div>
 </body>
-
-
 
 </html>
