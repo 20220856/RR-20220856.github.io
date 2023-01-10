@@ -6,9 +6,7 @@
 
 Using the conceptual design of the Report provided to Eye Candy Cinemas, a final Entity Relationship Diagram has been created. It includes all relevant data of each cinema complex, individual theatres, sound systems within, screening times of films, and data on the films themselves.
 
-![205660295-12cd7497-8352-4460-8463-f954e49cdc26](https://user-images.githubusercontent.com/110361869/211253075-1300e4ef-733e-4029-9cbf-91d691eee578.png)
-
-
+![20220856-ERD-2023-01-10_19-59](https://user-images.githubusercontent.com/110361869/211483284-f226b839-3915-4424-93ae-2c348f1a7e1d.png)
 
 Additionally, a breakdown of the ERD, as well as individual elements can be found below for additional context as to how the ERD directly corresponds to Eye Candy Cinemas. These breakdowns include all Entities used in the ERD, the Attributes of individual Entities, a brief Description of Attributes, the Data Types of Attributes, the Primary Key of the Entity (as well as other Candidate Keys), and the Cardinality of each dataset to another.
 
