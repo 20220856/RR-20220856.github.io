@@ -127,3 +127,41 @@ These are;
 Additionally, Eye Candy Cinemas has requested a special, additional feature;
 - The ability to monitor the number of screenings per day/week at each location and theatre.
 
+In order to achieve these functions, a number of queries must be able to be run on the database to ensure that the data required can be attained. Below are tables for the five functions, and their corresponding queries.
+
+
+|Function|Queries|Description|
+|:---:|:---:|:---:|
+|Search For Cinema|SearchCinemaByCity|Search for a Cinema within a City
+||SearchCinemaByCityAndSeating|Search for a Cinema within a City by the capacity of the Seating
+||SearchCinemaByCityAndSoundSystem|Search for a Cinema within a City by its Sound System
+
+|Function|Queries|Description|
+|:---:|:---:|:---:|
+|Show Cinema Information|ShowCinemaAddresses|Show the First and Second lines of Address, and the City
+||ShowCinemaTheatres|Display the Number of Theatres within a Cinema
+||ShowTheatreIDAndSeats|Displays the Seating Capacity of each of the Theatres within a Cinema
+||ShowTheatreIDAndSoundSystem|Displays the Sound System of each Theatre within a Cinema
+
+|Function|Queries|Description|
+|:---:|:---:|:---:|
+|Search Film Schedule|SearchFilmByTitle|Search for Film session details by the title of the Film
+||SearchFilmByCinema|Shows all films screening at a Cinema Complex
+||SearchFilmByDay|Show all film screenings on a given Weekday
+||SearchFilmByTicketPrice|Search all films with a specified ticket price
+
+|Function|Queries|Description|
+|:---:|:---:|:---:|
+|Show Film Screenings|SearchScreeningByTheatre|Show all screenings within a specified Theatre
+||SearchScreeningByDateTime|Show all screenings within a specified Date and Time
+||ShowScreeningInfo|Display Film Director, Year of Release, Classification, and IMDB Link
+
+|Function|Queries|Description|
+|:---:|:---:|:---:|
+|Monitor Movie Screenings|ListCinemaScreenings| List all screening sessions for a Cinema within a specified timeframe
+||ListTheatreScreenings|List all screening sessions for an individual Theatre within a specified timeframe
+||AverageSessionsPerWeek|Provide an Average of the total screenings per day over a week.
+
+In order to accomodate these search queries, a number of changes had to be made to the database in order to ensure the function of these detailed requirements;
+To the Cinema Table, "Cinema_Theatres" was added, in order to show the number of Theatres in each Cinema. This information was not available prior.
+To the Screening Table, "Screening_Day" was added, in order to show what weekday the screening is on. Previously, only the date was available.
