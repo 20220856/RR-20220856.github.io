@@ -2,7 +2,7 @@
 
 ---
 
-# Task 1: Development of Data Model for Eye Candy Cinemas
+# Part 1, Task 1: Development of Data Model for Eye Candy Cinemas
 
 Using the conceptual design of the Report provided to Eye Candy Cinemas, a final Entity Relationship Diagram has been created. It includes all relevant data of each cinema complex, individual theatres, sound systems within, screening times of films, and data on the films themselves.
 
