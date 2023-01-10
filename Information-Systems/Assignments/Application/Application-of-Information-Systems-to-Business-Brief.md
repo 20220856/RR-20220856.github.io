@@ -133,8 +133,8 @@ In order to achieve these functions, a number of queries must be able to be run 
 |Function|Queries|Description|
 |:---:|:---:|:---:|
 |Search For Cinema|SearchCinemaByCity|Search for a Cinema within a City
-||SearchCinemaByCityAndSeating|Search for a Cinema within a City by the capacity of the Seating
-||SearchCinemaByCityAndSoundSystem|Search for a Cinema within a City by its Sound System
+||SearchTheatreBySeatingAndCity|Search for a Cinema within a City by the capacity of the Seating
+||SearchTheatreBySoundSystemAndCity|Search for a Cinema within a City by its Sound System
 
 |Function|Queries|Description|
 |:---:|:---:|:---:|
