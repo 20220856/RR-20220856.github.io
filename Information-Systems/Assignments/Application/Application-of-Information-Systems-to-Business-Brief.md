@@ -6,7 +6,8 @@
 
 Using the conceptual design of the Report provided to Eye Candy Cinemas, a final Entity Relationship Diagram has been created. It includes all relevant data of each cinema complex, individual theatres, sound systems within, screening times of films, and data on the films themselves.
 
-![20220856-ERD-2023-01-10_19-59](https://user-images.githubusercontent.com/110361869/211483284-f226b839-3915-4424-93ae-2c348f1a7e1d.png)
+![20220856-ERD-2023-01-10_21-59](https://user-images.githubusercontent.com/110361869/211506804-cbf47d55-c70f-4c45-93c9-4071dd8f9111.png)
+
 
 Additionally, a breakdown of the ERD, as well as individual elements can be found below for additional context as to how the ERD directly corresponds to Eye Candy Cinemas. These breakdowns include all Entities used in the ERD, the Attributes of individual Entities, a brief Description of Attributes, the Data Types of Attributes, the Primary Key of the Entity (as well as other Candidate Keys), and the Cardinality of each dataset to another.
 
@@ -166,7 +167,7 @@ In order to achieve these functions, a number of queries must be able to be run 
 In order to accomodate these search queries, two changes had to be made to the database in order to ensure the function of these detailed requirements;
 - To the Cinema Table, "Cinema_Theatres" was added, in order to show the number of Theatres in each Cinema. This information was not available prior.
 - To the Screening Table, "Screening_Day" was added, in order to show what weekday the screening is on. Previously, only the date was available.
-- In the Film Table, Film_Duration was changed to a single INT of the runtime in minutes, rather than TIME.
+- In the Film Table, "Film_Duration" was changed to a single INT of the runtime in minutes - "Film_Duration_Mins", rather than TIME.
 
 Otherwise, all required data for the queries should already be accounted for within the data tables.
 
