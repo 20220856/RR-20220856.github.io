@@ -67,7 +67,7 @@ For the Screening Table, both the Theatre_ID and Film_ID attributes are referent
 |Film|Film_ID|The Numeric Identifier for a Film|INT|PK, CK & FK|Screening *(One-to-Many)*|
 ||Film_Title|The Title of the film|VARCHAR|CK||
 ||Film_Director|The Director of the Film|VARCHAR|||
-||Film_Duration|The complete runtime of the Film|TIME|||
+||Film_Duration|The complete runtime of the Film|INT|||
 ||Film_Year|The Year the film was released|INT|||
 ||Film_Classification|The Classification of the film|VARCHAR|||
 ||Film_IMDB|A link to the IMDB Rating/Review of the Film|VARCHAR|||
