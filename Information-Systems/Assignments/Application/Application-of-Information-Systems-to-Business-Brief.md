@@ -114,3 +114,16 @@ A transitive dependancy is when an attribute of a table is dependant on a **non-
 
 ---
 
+## Task 2: Designing Data Queries for Eye Candy Cinemas
+
+The purpose of this database is to interface with, and provide data to a Web application. Several necessary functions have been identified, and must have correspondant data queries in order to complete.
+
+These are;
+- The ability to search for a Cinema
+- The ability to show information regarding a Cinema
+- The ability to show a schedule of upcoming movies
+- The ability to show detailed information of a specific screening
+
+Additionally, Eye Candy Cinemas has requested a special, additional feature;
+- The ability to monitor the number of screenings per day/week at each location and theatre.
+
