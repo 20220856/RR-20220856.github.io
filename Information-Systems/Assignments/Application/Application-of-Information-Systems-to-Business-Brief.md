@@ -14,7 +14,7 @@ Additionally, a breakdown of the ERD, as well as individual elements can be foun
 
 ---
 
-## Cinema Dataset
+## Cinema Table
 
 |Entity|Attribute|Description|Data Type|PK/CK/FK|Cardinality|
 |:---:|---|---|---|---|:---:|
@@ -26,11 +26,11 @@ Additionally, a breakdown of the ERD, as well as individual elements can be foun
 ||Cinema_Email|The Email address of the Cinema|VARCHAR|||
 ||Cinema_Phone|The Phone Number of the Cinema|INT|||
 
-For the Cinema Dataset, no referential constraints apply, as the contained information is entirely independant of other datasets.
+For the Cinema Table, no referential constraints apply, as the contained information is entirely independant of other datasets.
 
 ---
 
-## Theatre Dataset
+## Theatre Table
 
 |Entity|Attribute|Description|Data Type|PK/CK/FK|Cardinality|
 |:---:|---|---|---|---|:---:|
@@ -39,13 +39,13 @@ For the Cinema Dataset, no referential constraints apply, as the contained infor
 ||Cinema_ID|The Cinema ID, denoting which cinema the theatre is located|INT|FK|Cinema *(Many-to-One)*|
 ||Sound_ID|The Sound System ID, denoting which system the theatre uses|INT|FK|Sound System *(Many-to-One)*|
 
-For the Theatre Dataset, both the Cinema_ID and Sound_ID attributes are referential constraints - the information from both the Cinema Dataset and the SoundSystem Dataset are being referenced. This is because the theatre could not otherwise:
+For the Theatre Table, both the Cinema_ID and Sound_ID attributes are referential constraints - the information from both the Cinema Table and the SoundSystem Table are being referenced. This is because the theatre could not otherwise:
 - Be located within a Cinema Complex.
 - Have the Sound System in use be determined.
 
 ---
 
-## Screening Dataset
+## Screening Table
 
 |Entity|Attribute|Description|Data Type|PK/CK/FK|Cardinality|
 |:---:|---|---|---|---|:---:|
@@ -55,13 +55,13 @@ For the Theatre Dataset, both the Cinema_ID and Sound_ID attributes are referent
 ||Screening_DateTime|The Date and time of the screening|DATETIME|||
 ||Screening_Price|The Price for a ticket to the screening|DECIMAL|||
 
-For the Screening Dataset, both the Theatre_ID and Film_ID attributes are referential constraints - information from the Theatre Dataset and Film Dataset are being referenced. This is important, otherwise:
+For the Screening Table, both the Theatre_ID and Film_ID attributes are referential constraints - information from the Theatre Table and Film Table are being referenced. This is important, otherwise:
 - The Theatre within which the Screening was set to take place could not be determined.
 - The Film that the Screening was intended to display could not be determined.
 
 ---
 
-## Film Dataset
+## Film Table
 
 |Entity|Attribute|Description|Data Type|PK/CK/FK|Cardinality|
 |:---:|---|---|---|---|:---:|
@@ -73,11 +73,11 @@ For the Screening Dataset, both the Theatre_ID and Film_ID attributes are refere
 ||Film_Classification|The Classification of the film|VARCHAR|||
 ||Film_IMDB|A link to the IMDB Rating/Review of the Film|VARCHAR|||
 
-For the Film Dataset, there are no referential constraints. The information regarding a film is not dependant on any other Data - it is fixed.
+For the Film Table, there are no referential constraints. The information regarding a film is not dependant on any other Data - it is fixed.
 
 ---
 
-## SoundSystem Dataset
+## SoundSystem Table
 
 |Entity|Attribute|Description|Data Type|PK/CK/FK|Cardinality|
 |:---:|---|---|---|---|:---:|
@@ -85,7 +85,7 @@ For the Film Dataset, there are no referential constraints. The information rega
 ||Sound_Name|The Model Name of the Sound System|VARCHAR|||
 ||Sound_Manufacturer|The Manufacturer of the Sound System|VARCHAR|||
 
-For the SoundSystem Dataset, there are no referential constraints. The Dataset is not dependant on any information in order to exist, and - in fact - only exists for referencing in the Theatre Dataset.
+For the SoundSystem Table, there are no referential constraints. The Table is not dependant on any information in order to exist, and - in fact - only exists for referencing in the Theatre Table.
 
 ---
 
