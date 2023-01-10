@@ -89,6 +89,26 @@ For the SoundSystem Dataset, there are no referential constraints. The Dataset i
 
 ---
 
+## Data Normalisation
+
+In order to preserve the integrity of data, prevent data duplication, and aid in the effective cataloguing/categorisation of information, data must be normalised. In this instance, the data has been normalised to the **Third Normal Form (3NF)**. The fulfilled criteria are explained below.
+
+### The Data is provably standardised to the **First Normal Form (1NF)** because;
+- The data tables are scaleable, and can easily have more data inserted.
+- Each data entry only contains ONE form of value.
+- Values of the same TYPE are organised in columns.
+- Each column has an entirely unique name.
+- Data can otherwise be stored in any order, and doing so does not compromise the integrity of information.
+
+### The Data is provably standardised to the **Second Normal Form (2NF)** because;
+- It has shown to be correctly standardised to (1NF).
+- There are no Partial Dependancies within the data.
+
+A partial dependancy is when data within an entity consists of duplicated data. Using a practical example from the data for Eye Candy Cinemas, a partial dependancy could be the inclusion of "Sound_ID" **AND** "Sound_Name" in the Theatre Table. Due to the fact that "Sound_Name" is already accounted for by "Sound_ID", this would be data duplication, and thus a partial dependancy. Ensuring that there are no such occurrences ensures that the tables are in (2NF).
+
+### The Data has been provably standardised to **Third Normal Form (3NF)** because;
+- It has been shown to be correctly standardised to (1NF) and (2NF).
+- 
 
 1st normal form = good database design
 2nd normal form = no partial dependancy (ie. all data should only be represented once)
