@@ -174,4 +174,4 @@ Otherwise, all required data for the queries should already be accounted for wit
 
 In the absence of any real data available, content for the above tables must be fabricated from scratch. Data will, however, be somewhat correlated to existing competitors of Eye Candy Cinemas.
 
-[The data content for Eye Candy Cinemas can be found here]()
+[The data content for Eye Candy Cinemas can be found here](./datacontent.md)
