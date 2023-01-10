@@ -178,12 +178,15 @@ Otherwise, all required data for the queries should already be accounted for wit
 
 In the absence of any real data available, content for the above tables must be fabricated from scratch. Data will, however, be somewhat correlated to existing competitors of Eye Candy Cinemas.
 
-[The data content for Eye Candy Cinemas can be found here](./datacontent.md)
+[The sample data content for Eye Candy Cinemas can be found here](./datacontent.md)
 
 ---
 
-## Part 2: Database Implimentation
+## Part 2, Task 1: Database Implimentation
 
-The Database for Eye Candy Cinemas has successfully been created in MySQL, and [can be found here](./Application/Eye-Candy-Cinema-Database.rar).
+The Database for Eye Candy Cinemas has successfully been created in MySQL, and [can be found here](./Eye-Candy-Cinema-Database.rar).
 
+## Part 2, Task 2: Creation and Testing of Queries
+
+Within the MySQL Environment, 
 
