@@ -52,7 +52,7 @@ For the Theatre Table, both the Cinema_ID and Sound_ID attributes are referentia
 |Screening|Screening_ID|The Numeric Identifier for a Screening|INT|PK & CK||
 ||Theatre_ID|The Theatre ID, denoting the theatre for the screening|INT|FK|Theatre *(Many-to-One)*|
 ||Film_ID|The Film ID, denoting the film for the screening|INT|FK|Film *(Many-to-One)*|
-||Screening_DateTime|The Date and time of the screening|DATETIME|||
+||Screening_DateTime|The Date and time of the screening|SMALLDATETIME|||
 ||Screening_Price|The Price for a ticket to the screening|DECIMAL|||
 
 For the Screening Table, both the Theatre_ID and Film_ID attributes are referential constraints - information from the Theatre Table and Film Table are being referenced. This is important, otherwise:
@@ -167,7 +167,7 @@ In order to achieve these functions, a number of queries must be able to be run 
 In order to accomodate these search queries, two changes had to be made to the database in order to ensure the function of these detailed requirements;
 - To the Cinema Table, "Cinema_Theatres" was added, in order to show the number of Theatres in each Cinema. This information was not available prior.
 - To the Screening Table, "Screening_Day" was added, in order to show what weekday the screening is on. Previously, only the date was available.
-- In the Screening Table, "Screening_DateTime"'s datatype was changed from DateType to DateTypeSmall. Accuracy to 0.003 seconds is not required.
+- In the Screening Table, "Screening_DateTime"'s datatype was changed from DateTime to SmallDateTime. Accuracy to 0.003 seconds is not required.
 - In the Film Table, "Film_Duration" was changed to a single INT of the runtime in minutes - "Film_Duration_Mins", rather than TIME.
 
 Otherwise, all required data for the queries should already be accounted for within the data tables.
