@@ -91,7 +91,7 @@ For the SoundSystem Dataset, there are no referential constraints. The Dataset i
 
 ## Data Normalisation
 
-In order to preserve the integrity of data, prevent data duplication, and aid in the effective cataloguing/categorisation of information, data must be normalised. In this instance, the data has been normalised to the **Third Normal Form (3NF)**. The fulfilled criteria are explained below.
+In order to preserve the integrity of data, prevent data duplication, and aid in the effective categorisation of information, data must be normalised. In this instance, the data has been normalised to the **Third Normal Form (3NF)**. The fulfilled criteria are explained below.
 
 ### The Data is provably standardised to the **First Normal Form (1NF)** because;
 - The data tables are scaleable, and can easily have more data inserted.
@@ -108,9 +108,9 @@ A partial dependancy is when data within an entity consists of duplicated data. 
 
 ### The Data has been provably standardised to **Third Normal Form (3NF)** because;
 - It has been shown to be correctly standardised to (1NF) and (2NF).
-- 
+- There are no Transitive Dependancies within the data.
 
-1st normal form = good database design
-2nd normal form = no partial dependancy (ie. all data should only be represented once)
-3rd normal form = no transitive dependancy (ie. no data dependance of non-primary keys)
+A transitive dependancy is when an attribute of a table is dependant on a **non-primary** attribute in order to exist. An example of this would be if the "Screening_DateTime" attribute was separated into "Screening_Date" and "Screening_Time". Although "Screening_Date" would NOT be a primary attribute, "Screening_Time" would be dependant on it in order to contextually make sense, therefore would be transitively dependant. Ensuring that this example, along with any others like it, are NOT transitively dependant ensures that the tables are standardised to (3NF).
+
+---
 
