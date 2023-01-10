@@ -23,6 +23,7 @@ Additionally, a breakdown of the ERD, as well as individual elements can be foun
 ||Cinema_City|The City of the Cinema|VARCHAR|||
 ||Cinema_Email|The Email address of the Cinema|VARCHAR|||
 ||Cinema_Phone|The Phone Number of the Cinema|INT|||
+||Cinema_Theatres|The number of Theatres per Cinema|INT|||
 
 For the Cinema Table, no referential constraints apply, as the contained information is entirely independant of other datasets.
 
