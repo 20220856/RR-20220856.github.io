@@ -171,7 +171,7 @@ In order to accomodate these search queries, two changes had to be made to the d
 - In the Film Table, "Film_Duration" was changed to a single INT of the runtime in minutes - "Film_Duration_Mins", rather than TIME.
 - Otherwise, all required data for the queries should already be accounted for within the data tables.
 
-### The Changes to the ERD as a result are shown below;
+### The Changes to the database as a result are displayed below using an ERD;
 
 Old:
 ![20220856-ERD-2022-12-06_03-22](https://user-images.githubusercontent.com/110361869/211560321-9e271ef2-72c6-4bf6-b910-6a20690c286d.png)
