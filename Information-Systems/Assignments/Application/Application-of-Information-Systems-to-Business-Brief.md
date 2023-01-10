@@ -166,7 +166,6 @@ In order to achieve these functions, a number of queries must be able to be run 
 In order to accomodate these search queries, two changes had to be made to the database in order to ensure the function of these detailed requirements;
 - To the Cinema Table, "Cinema_Theatres" was added, in order to show the number of Theatres in each Cinema. This information was not available prior.
 - To the Screening Table, "Screening_Day" was added, in order to show what weekday the screening is on. Previously, only the date was available.
-- To the Theatre Table, the "Cinema_ID" is included as a Foreign Key, to denote which Cinema each Theatre belongs.
 
 Otherwise, all required data for the queries should already be accounted for within the data tables.
 
