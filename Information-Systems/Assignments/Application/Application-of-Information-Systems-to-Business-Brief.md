@@ -24,7 +24,6 @@ Additionally, a breakdown of the ERD, as well as individual elements can be foun
 ||Cinema_City|The City of the Cinema|VARCHAR|||
 ||Cinema_Email|The Email address of the Cinema|VARCHAR|||
 ||Cinema_Phone|The Phone Number of the Cinema|INT|||
-||Cinema_Theatres|The number of Theatres per Cinema|INT|||
 
 For the Cinema Table, no referential constraints apply, as the contained information is entirely independant of other datasets.
 
@@ -165,7 +164,7 @@ In order to achieve these functions, a number of queries must be able to be run 
 ## Review of Database Design
 
 In order to accomodate these search queries, two changes had to be made to the database in order to ensure the function of these detailed requirements;
-- To the Cinema Table, "Cinema_Theatres" was added, in order to show the number of Theatres in each Cinema. This information was not available prior.
+- To the Cinema Table, "Cinema_Theatres" was added, in order to show the number of Theatres in each Cinema. This information was not available prior. **HOWEVER, this was later removed, as the sum of Theatres with "Cinema_ID=1" could be determined instead.**
 - To the Screening Table, "Screening_Day" was added, in order to show what weekday the screening is on. Previously, only the date was available.
 - In the Screening Table, "Screening_DateTime"'s datatype was changed from DateTime to SmallDateTime. Accuracy to 0.003 seconds is not required.
 - In the Film Table, "Film_Duration" was changed to a single INT of the runtime in minutes - "Film_Duration_Mins", rather than TIME.
