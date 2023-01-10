@@ -2,10 +2,10 @@
 
 ## Cinema
 
-|Cinema_ID|Cinema_Name|Cinema_Address_1|Cinema_Address_2|Cinema_City|Cinema_Email|Cinema_Phone|Cinema_Theatres|
+|Cinema_ID|Cinema_Name|Cinema_Address_1|Cinema_Address_2|Cinema_City|Cinema_Email|Cinema_Phone|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|1|Auckland|123 Symonds Street|Auckland Central|Auckland|auckland@ECC.co.nz|093025477|6|
-|2|Wellington|234 Tinakori Road|Thorndon|Wellington|wellington@ECC.co.nz|092374482|4|
+|1|Auckland|123 Symonds Street|Auckland Central|Auckland|auckland@ECC.co.nz|093025477|
+|2|Wellington|234 Tinakori Road|Thorndon|Wellington|wellington@ECC.co.nz|092374482|
 
 ---
 
@@ -13,15 +13,30 @@
 |Theatre_ID|Theatre_Seats|Cinema_ID|Sound_ID|
 |:---:|:---:|:---:|:---:|
 |1|40|1|3|
-|2
-|3
-|4
-|5
-|6
-|7
-|8
-|9
-|10
+|2|220|1|1
+|3|220|1|2
+|4|160|1|3
+|5|98|1|3
+|6|180|1|2
+|7|44|2|3
+|8|220|2|1
+|9|220|2|1
+|10|160|2|2
+
+---
+
+## Screening
+|Screening_ID|Theatre_ID|Film_ID|Screening_DateTime|Screening_Day|Screening_Price|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|1|1|3
+|2|1|6
+|3|1|4
+|4|1|1
+|5|1|7
+|6|2|2
+|7|2|5
+|8|2|8
+
 
 ---
 
