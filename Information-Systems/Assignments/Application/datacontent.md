@@ -27,7 +27,7 @@
 
 ## Film
 
-|Film_ID|Film_Title|Film_Director|Film_Duration|Film_Year|Film_Classification|Film_IMDB|
+|Film_ID|Film_Title|Film_Director|Film_Duration_Mins|Film_Year|Film_Classification|Film_IMDB|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |1|Avatar: The Way of Water|James Cameron|192|2022|M|https://www.imdb.com/title/tt1630029/|
 |2|Black Panther: Wakanda Forever|Ryan Coogler|161|2022|M|https://www.imdb.com/title/tt9114286/|
