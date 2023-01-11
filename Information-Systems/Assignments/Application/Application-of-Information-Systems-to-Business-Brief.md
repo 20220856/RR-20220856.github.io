@@ -262,7 +262,7 @@ END <br>
 
 This Query takes one variable input - a weekday *(in this case, "Friday")*, and compiles a list of films screening on that day. Any non-weekday inputs will return null.
 
-## F4: Show Film Screenings
+### F4: Show Film Screenings
 
 Q7: SearchScreeningByCinema
 
@@ -283,7 +283,7 @@ END
 
 This query has no variable inputs, and serves to provide a list of all screenings currently available. Due to this, there is no chance of a null output.
 
-F5: Monitor Movie Screenings
+### F5: Monitor Movie Screenings
 
 Q9: AverageScreeningsPerWeek
 
