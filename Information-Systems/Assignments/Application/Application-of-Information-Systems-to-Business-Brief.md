@@ -195,5 +195,70 @@ The Database for Eye Candy Cinemas has successfully been created in MySQL, and [
 
 ## Part 2, Task 2: Creation and Testing of Queries
 
-Within the MySQL Environment, 
+In order to fulfil the conditions outlined by Eye Candy Cinemas, a number of queries must be created and tested to ensure correct functionality of the future Web Application. At least TWO queries must be created per requested function.
+
+### F1: Search For Cinema
+
+Q1: SearchCinemaByCity
+
+BEGIN <br>
+SELECT *  <br>
+FROM cinema <br>
+WHERE cinema_city="Auckland"; <br>
+END <br>
+
+This query takes one variable input from the user - the name of a city. In this specific case, "Auckland" or "Wellington" will return information corresponding to the Cinema complex in that city, and any other entry will return null.
+
+Q2: SearchTheatreBySeatingAndCity
+
+BEGIN <br>
+SELECT * <br>
+FROM theatre <br>
+WHERE cinema_id=1 AND theatre_seats<100; <br>
+END <br>
+
+This Query takes TWO variable inputs from the user, a "1" or a "2" *(corresponding to either "Auckland" or "Wellington" respectively)*, and an algebraeic expression for the number of seats within a theatre *(In this case, less than 100)*. This will return how many THEATRES within a cinema *(specified within "Auckland" or "Wellington")* have the requested number of seats. If either of the values are invalid, null is returned.
+
+### F2: Show Cinema Information
+
+Q3: ShowTheatreIDAndSeats
+
+BEGIN <br>
+SELECT  theatre_id, theatre_seats<br>
+FROM theatre; <br>
+END <br>
+
+This query does not take variable inputs from a user. Its purpose for the web application is to provide a collation of the number of seats correspondant to each theatre within BOTH cinema complexes, for ease of selection for the end-user. Also, because of this, there is no chance of a null value return - as there is no input in the first place.
+
+Q4: ShowTheatreBySoundSystem
+
+BEGIN <br>
+SELECT theatre_id, sound_id <br>
+FROM theatre <br>
+WHERE sound_id=3; <br>
+END <br>
+
+This Query takes one variable input from a user - the numberic "Sound_ID", corresponding to a sound system within a theatre *(in this case, "3" - or Dolby Atmos)*. The query will then return a list of all theatres that have the corresponding sound system installed. A value of anything other than *("1", "2", or "3")* will result in a return of null.
+
+### F3: Search Film Schedule
+
+Q5: SearchFilmByTicketPrice
+
+BEGIN <br>
+SELECT * <br>
+FROM screening <br>
+WHERE screening_price LIKE 10.00; <br>
+END <br>
+
+This Query takes one variable input - the cost in dollars of a ticket *(in this case, "10.00", the cheapest)*, and displays a list of all film screenings corresponding to that price. It could also be used with an arithmetic expression, such as *("screening_price<13.00")*. Any inputs not corresponding to a decimal input will be met with null output.
+
+Q6: SearchFilmByDay
+
+BEGIN
+SELECT *
+FROM screening
+WHERE screening_day LIKE "Friday";
+END
+
+
 
