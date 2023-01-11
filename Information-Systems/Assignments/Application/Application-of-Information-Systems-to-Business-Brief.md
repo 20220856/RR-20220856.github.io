@@ -173,10 +173,10 @@ In order to accomodate these search queries, two changes had to be made to the d
 
 ### The Changes to the database as a result are displayed below using an ERD;
 
-Old:
+Old: <br>
 ![20220856-ERD-2022-12-06_03-22](https://user-images.githubusercontent.com/110361869/211560321-9e271ef2-72c6-4bf6-b910-6a20690c286d.png)
 
-New:
+New: <br>
 ![20220856-ERD-2023-01-10_19-59](https://user-images.githubusercontent.com/110361869/211560420-7b2a9882-3258-4c8b-8919-4bc9105d7523.png)
 
 ---
