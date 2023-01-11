@@ -191,7 +191,7 @@ In the absence of any real data available, content for the above tables must be 
 
 ## Part 2, Task 1: Database Implimentation
 
-The Database for Eye Candy Cinemas has successfully been created in MySQL, and [can be found here](./Eye-Candy-Cinema-Database.rar).
+The Database for Eye Candy Cinemas has successfully been created in MySQL, and [can be found here](https://github.com/20220856/RR-20220856.github.io/raw/main/Information-Systems/Assignments/Application/Eye-Candy-Cinema-Database.rar).
 
 ## Part 2, Task 2: Creation and Testing of Queries
 
