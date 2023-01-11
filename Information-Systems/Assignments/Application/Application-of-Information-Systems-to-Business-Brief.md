@@ -152,7 +152,7 @@ In order to achieve these functions, a number of queries must be able to be run 
 
 |Function|Queries|Description|
 |:---:|:---:|:---:|
-|Show Film Screenings|SearchScreeningByCinema|Show all screenings within a specified Cinema Complex
+|Show Film Screenings|SearchScreeningByTheatre|Show all screenings within a specified Theatre
 ||SearchScreeningByDateTime|Show all screenings within a specified Date and Time
 ||ShowScreeningInfo|Display Film Director, Year of Release, Classification, and IMDB Link
 
@@ -230,7 +230,7 @@ END <br>
 
 This query does not take variable inputs from a user. Its purpose for the web application is to provide a collation of the number of seats correspondant to each theatre within BOTH cinema complexes, for ease of selection for the end-user. Also, because of this, there is no chance of a null value return - as there is no input in the first place.
 
-Q4: ShowTheatreBySoundSystem
+Q4: SearchTheatreBySoundSystem
 
 BEGIN <br>
 SELECT theatre_id, sound_id <br>
@@ -254,11 +254,58 @@ This Query takes one variable input - the cost in dollars of a ticket *(in this 
 
 Q6: SearchFilmByDay
 
+BEGIN <br>
+SELECT * <br>
+FROM screening <br>
+WHERE screening_day LIKE "Friday"; <br>
+END <br>
+
+This Query takes one variable input - a weekday *(in this case, "Friday")*, and compiles a list of films screening on that day. Any non-weekday inputs will return null.
+
+## F4: Show Film Screenings
+
+Q7: SearchScreeningByCinema
+
+BEGIN <br>
+SELECT * <br>
+FROM screening <br>
+WHERE theatre_id=1; <br>
+END <br>
+
+This query returns all Screenings scheduled to take place in a specified Cinema complex. In this case, within the Auckland Complex. Any input other than *("1" or "2")* will result in null output.
+
+Q8: ShowScreeningInfo
+
+BEGIN
+SELECT *
+FROM screening;
+END
+
+This query has no variable inputs, and serves to provide a list of all screenings currently available. Due to this, there is no chance of a null output.
+
+F5: Monitor Movie Screenings
+
+Q9: AverageScreeningsPerWeek
+
+Full disclosure, I could not get this to work. However, I imagine it was somewhat along the lines of this;
+
+BEGIN
+SELECT * NOT NULL
+FROM screening AND COUNT(screening_id)/7;
+END
+
+I know this is not right, but I could not figure out how to insert arithmetic expressions and allow MySQL to "Print" - if there is such an equivalence to be made.
+
+Q10: ListCinemaScreenings
+
 BEGIN
 SELECT *
 FROM screening
-WHERE screening_day LIKE "Friday";
+WHERE screening_datetime BETWEEN "2022-01-12 00:00:00" AND "2022-01-13 00:00:00";
 END
 
+This Query has two variable inputs, both of which are datetimes - it allows for all films in a cinema to be displayed when they fall between the two specified datetimes. Any inserted values other than datetimes will return a null output.
 
+---
 
+This concludes the Application of Information Systems to Business Brief for Eye Candy Cinemas.
