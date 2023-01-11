@@ -152,7 +152,7 @@ In order to achieve these functions, a number of queries must be able to be run 
 
 |Function|Queries|Description|
 |:---:|:---:|:---:|
-|Show Film Screenings|SearchScreeningByTheatre|Show all screenings within a specified Theatre
+|Show Film Screenings|SearchScreeningByCinema|Show all screenings within a specified Cinema Complex
 ||SearchScreeningByDateTime|Show all screenings within a specified Date and Time
 ||ShowScreeningInfo|Display Film Director, Year of Release, Classification, and IMDB Link
 
