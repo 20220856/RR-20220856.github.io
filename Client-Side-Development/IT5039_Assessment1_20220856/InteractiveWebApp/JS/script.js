@@ -1,4 +1,6 @@
 
+// Console-Logging functionality remains for ease of understanding functions.
+
 let num1=0,num2=0
 
 document.getElementById("addition").onclick=function(){

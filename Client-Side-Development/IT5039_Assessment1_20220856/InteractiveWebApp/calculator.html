@@ -1,37 +1,41 @@
 <html  lang="en">
     <title>Calculator Application</title>
 <head>
+    <link rel="stylesheet" href="CSS/design.css">
 </head>
 
 <body>
-    <div class="header">
-        <h1>Calculator Application</h1>
-    </div>
-
-    <div id="inputs">
-        <p>Enter the First Number: <br> </p>
-        <input type="number" title="First Number" id="number1"><br>
-        <p>Enter the Second Number: <br> </p>
-        <input type="number" title="Second Number" id="number2"><br><br>
-    </div>
-
-    <div id="buttons">
-        <button type="button" id="addition">+</button>
-        <button type="button" id="subtraction">-</button>
-        <button type="button" id="multiplication">x</button>
-        <button type="button" id="division">÷</button>
-        <button type="button" id="modulo">%</button>
-        <button type="button" id="clear">Clear All</button><br>
-    </div>
-
-    <div class="output">
-        <br>
-        Result: <span id="result"></span>
-        <br> <br><br><br>
-    </div>
-
-    <div class="closeapp">
-        <button type="button" id="close">Close Application</button>
+    
+    <div class="container">
+        <div class="header">
+            <h1>Calculator Application</h1>
+        </div>
+    
+        <div id="inputs">
+            <p>Enter the First Number: <br> </p>
+            <input type="number" title="First Number" id="number1"><br>
+            <p>Enter the Second Number: <br> </p>
+            <input type="number" title="Second Number" id="number2"><br><br>
+        </div>
+    
+        <div id="buttons">
+            <button type="button" id="addition">+</button>
+            <button type="button" id="subtraction">-</button>
+            <button type="button" id="multiplication">x</button>
+            <button type="button" id="division">÷</button>
+            <button type="button" id="modulo">%</button>
+            <button type="button" id="clear">Clear All</button><br>
+        </div>
+    
+        <div class="output">
+            <br>
+            Result: <span id="result"></span>
+            <br> <br><br><br>
+        </div>
+    
+        <div class="closeapp">
+            <button type="button" id="close">Close Application</button>
+        </div>
     </div>
 
     <script src="JS/script.js"></script>
